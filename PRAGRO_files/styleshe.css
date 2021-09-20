@@ -1,0 +1,31 @@
+<STYLE type=text/css>
+TH { FONT-FAMILY: Verdana; FONT-SIZE: 10px; COLOR:#00000 }
+TD { FONT-FAMILY: Verdana; FONT-SIZE: 10px; COLOR:#000000 }
+.body { FONT-FAMILY: Verdana; FONT-SIZE: 10px; COLOR:#000000}
+
+INPUT { FONT-SIZE: 10px; FONT-FAMILY: Verdana }
+SELECT { FONT-SIZE: 10px; FONT-FAMILY: Verdana }
+TEXTAREA { FONT-SIZE: 10px; FONT-FAMILY: Verdana }
+
+A:active { COLOR: #22449D;  text-decoration:none; font-weight:bold  }
+A:hover { text-decoration:underline; COLOR: #22449D; font-weight:bold    }
+A:link { COLOR: #22449D; text-decoration:none; font-weight:bold    }
+A:visited {  text-decoration:none; COLOR: #22449D; font-weight:bold  }
+
+.head { FONT-SIZE: 10pt; COLOR: #F08A00; font-weight:bold }
+.title { FONT-SIZE: 11pt; COLOR: #3366CC; font-weight:bold }
+.blue { FONT-SIZE: 12pt; COLOR: #3366CC; font-weight:bold }
+.black { FONT-SIZE: 10pt; COLOR: #000000; font-weight:bold }
+.red { FONT-SIZE: 10pt; COLOR: #ff0000; font-weight:bold }
+.white { COLOR: #FFFFFF }
+.yellow { FONT-SIZE: 10pt; COLOR: #FFEA00; font-weight:bold }
+.whitebold { FONT-SIZE: 10pt; COLOR: #ffffff; font-weight:bold }
+
+.search {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; font-weight: bold}
+.textboxes {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; background-color: #FFFFFF; border: #666666; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+.headers { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold }
+.text { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; font-weight: normal; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px}
+.more { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #CC0000; font-weight: normal; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px }
+.disclamer { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #CCCCCC; font-weight: normal; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px }
+.textsmall { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #000000; font-weight: normal; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px }
+</STYLE>
