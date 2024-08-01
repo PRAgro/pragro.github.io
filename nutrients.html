@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>Nutrients - PR Agro</title
+    ><meta property="og:title" content="Nutrients - PR Agro" /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Noto Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-JG2J5G3QFE"
+    ></script
+    ><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JG2J5G3QFE');
+    </script></head
+  >
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./nutrients.css" rel="stylesheet" /><script
+        type="text/javascript"
+        src="https://github.com/teleporthq/date-time-primitive/blob/main/dist/default/lib.umd.js"
+      ></script
+      ><div class="nutrients-container"
+        ><div id="Header" class="nutrients-hero2"
+          ><div class="navigation-container360 navigation-root-class-name5"
+            ><div class="navigation-container361"
+              ><a href="index.html" class="navigation-navlink59"
+                ><img
+                  alt="image"
+                  src="public/logos/pragro-1500h.webp"
+                  loading="eager"
+                  class="navigation-image45" /></a
+              ><div class="navigation-container362 thq-section-max-width"
+                ><animate-on-reveal
+                  animation="pulse"
+                  duration="1500ms"
+                  delay="1500ms"
+                  direction="normal"
+                  easing="linear"
+                  iteration="10000"
+                  ><a href="index.html"
+                    ><h1
+                      data-thq-animate-on-reveal="true"
+                      class="navigation-text542"
+                      ><span>PR Agro Nutri (Pvt.) Ltd.</span></h1
+                    ></a
+                  ></animate-on-reveal
+                ><div class="navigation-container363"
+                  ><a href="index.html" class="navigation-navlink61"
+                    ><span>Home</span></a
+                  ><a href="nutrients.html" class="navigation-navlink62"
+                    ><span>Nutrients</span></a
+                  ><a href="growing-practice.html" class="navigation-navlink63"
+                    ><span>Growing Methods</span></a
+                  ><a href="products.html" class="navigation-navlink64"
+                    ><span>Products</span></a
+                  ><a href="contact-us.html" class="navigation-navlink65"
+                    ><span>Contact Us</span></a
+                  ><span class="navigation-text543"
+                    ><span>Investor Relations</span></span
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></div
+        ><div id="Hero" class="nutrients-cta2"
+          ><div
+            class="browse-products-container186 thq-section-padding browse-products-root-class-name"
+            ><div class="thq-section-max-width"
+              ><div class="browse-products-accent2-bg09"
+                ><div class="browse-products-accent1-bg09"
+                  ><div class="browse-products-container187"
+                    ><div class="browse-products-content33"
+                      ><span class="thq-heading-2"
+                        ><span>Boost Your Crop Productivity Today!</span></span
+                      ><p class="thq-body-large"
+                        ><span
+                          >Explore our range of high-quality specialty
+                          fertilizers and plant nutrients to enhance your crop
+                          quality and yield.</span
+                        ></p
+                      ></div
+                    ><div class="browse-products-actions6"
+                      ><a
+                        href="products.html"
+                        class="browse-products-navlink44 thq-button-filled"
+                        ><span>Browse Products</span></a
+                      ></div
+                    ></div
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></div
+        ><div id="NutrientsInfo" class="nutrients-contentlist3"
+          ><div class="nutrient-info-container227 thq-section-padding"
+            ><div class="nutrient-info-max-width27 thq-section-max-width"
+              ><div class="nutrient-info-content47 thq-flex-column"
+                ><ul class="thq-flex-column"
+                  ><li class="thq-flex-column list-item"
+                    ><h2 class="nutrient-info-heading12 thq-heading-2"
+                      ><span>Nutrient Requirement in Plants</span></h2
+                    ><p class="nutrient-info-content1 thq-body-small"
+                      ><span
+                        >Nutrients play a crucial role in plant growth and
+                        development in farming. They provide essential elements
+                        that plants need to carry out various physiological
+                        processes, such as photosynthesis, nutrient absorption,
+                        and overall metabolism. By supplying the right balance
+                        of nutrients, farmers can ensure optimal plant health,
+                        increased yields, and improved crop quality.</span
+                      ></p
+                    ></li
+                  ><li class="list-item"
+                    ><h3 class="thq-heading-3"
+                      ><span>Primary Nutrients</span></h3
+                    ><p class="nutrient-info-content21 thq-body-small"
+                      ><span
+                        >Primary nutrients, also known as macronutrients, are
+                        essential elements required by plants in large
+                        quantities for their growth and development. These
+                        primary nutrients include Nitrogen, Phosphorus, and
+                        Potassium (NPK). Nitrogen is crucial for promoting leafy
+                        green growth and overall plant vigor. Phosphorus plays a
+                        key role in root development, flowering, and fruiting.
+                        Potassium helps in enhancing disease resistance,
+                        improving drought tolerance, and promoting overall plant
+                        health. Balancing the levels of these primary nutrients
+                        is vital for ensuring optimal crop yield and quality in
+                        modern agriculture.</span
+                      ></p
+                    ><div
+                      data-thq="thq-dropdown"
+                      class="nutrient-info-thq-dropdown3 list-item"
+                      ><div
+                        data-thq="thq-dropdown-toggle"
+                        class="nutrient-info-dropdown-toggle16"
+                        ><div
+                          data-thq="thq-dropdown-arrow"
+                          class="nutrient-info-dropdown-arrow3"
+                        ></div
+                        ><span class="nutrient-info-text408">Read More</span
+                        ><svg
+                          viewBox="0 0 1024 1024"
+                          class="nutrient-info-icon18"
+                        >
+                          <path d="M426 726v-428l214 214z"></path></svg></div
+                      ><ul
+                        data-thq="thq-dropdown-list"
+                        class="nutrient-info-dropdown-list3"
+                        ><li
+                          data-thq="thq-dropdown"
+                          class="nutrient-info-dropdown13 list-item"
+                          ><a href="pn-nitrogen.html"
+                            ><div
+                              data-thq="thq-dropdown-toggle"
+                              class="nutrient-info-dropdown-toggle17"
+                              ><span class="nutrient-info-text409"
+                                ><span>Nitrogen</span></span
+                              ></div
+                            ></a
+                          ></li
+                        ><li
+                          data-thq="thq-dropdown"
+                          class="nutrient-info-dropdown14 list-item"
+                          ><a href="pn-phosphorous.html"
+                            ><div
+                              data-thq="thq-dropdown-toggle"
+                              class="nutrient-info-dropdown-toggle18"
+                              ><span class="nutrient-info-text410"
+                                ><span>Phosphorous</span></span
+                              ></div
+                            ></a
+                          ></li
+                        ><li
+                          data-thq="thq-dropdown"
+                          class="nutrient-info-dropdown15 list-item"
+                          ><a href="pn-potassium.html"
+                            ><div
+                              data-thq="thq-dropdown-toggle"
+                              class="nutrient-info-dropdown-toggle19"
+                              ><span class="nutrient-info-text411"
+                                ><span>Potassium</span></span
+                              ></div
+                            ></a
+                          ></li
+                        ></ul
+                      ></div
+                    ></li
+                  ><li class="list-item"
+                    ><h3 class="thq-heading-3"
+                      ><span>Secondary Nutrients</span></h3
+                    ><p class="nutrient-info-content32 thq-body-small"
+                      ><span
+                        >Secondary nutrients, such as calcium, magnesium, and
+                        sulfur, play a crucial role in plant growth. Calcium is
+                        essential for cell wall structure and stability, as well
+                        as for nutrient uptake and enzyme activity. Magnesium is
+                        a component of chlorophyll, which is vital for
+                        photosynthesis and overall plant growth. Sulfur is
+                        important for amino acid production, protein synthesis,
+                        and overall plant health. Ensuring adequate levels of
+                        these secondary nutrients in the soil is essential for
+                        maximizing crop quality and productivity.</span
+                      ></p
+                    ><div
+                      data-thq="thq-dropdown"
+                      class="nutrient-info-thq-dropdown4 list-item"
+                      ><div
+                        data-thq="thq-dropdown-toggle"
+                        class="nutrient-info-dropdown-toggle20"
+                        ><div
+                          data-thq="thq-dropdown-arrow"
+                          class="nutrient-info-dropdown-arrow4"
+                        ></div
+                        ><span class="nutrient-info-text412">Read More</span
+                        ><svg
+                          viewBox="0 0 1024 1024"
+                          class="nutrient-info-icon20"
+                        >
+                          <path d="M426 726v-428l214 214z"></path></svg></div
+                      ><ul
+                        data-thq="thq-dropdown-list"
+                        class="nutrient-info-dropdown-list4"
+                        ><li
+                          data-thq="thq-dropdown"
+                          class="nutrient-info-dropdown16 list-item"
+                          ><a href="sn-calcium.html"
+                            ><div
+                              data-thq="thq-dropdown-toggle"
+                              class="nutrient-info-dropdown-toggle21"
+                              ><span class="nutrient-info-text413"
+                                ><span>Calcium</span></span
+                              ></div
+                            ></a
+                          ></li
+                        ><li
+                          data-thq="thq-dropdown"
+                          class="nutrient-info-dropdown17 list-item"
+                          ><a href="sn-magnesium.html"
+                            ><div
+                              data-thq="thq-dropdown-toggle"
+                              class="nutrient-info-dropdown-toggle22"
+                              ><span class="nutrient-info-text414"
+                                ><span>Magnesium</span></span
+                              ></div
+                            ></a
+                          ></li
+                        ><li
+                          data-thq="thq-dropdown"
+                          class="nutrient-info-dropdown18 list-item"
+                          ><a href="sn-sulphur.html"
+                            ><div
+                              data-thq="thq-dropdown-toggle"
+                              class="nutrient-info-dropdown-toggle23"
+                              ><span class="nutrient-info-text415"
+                                ><span>Sulphur</span></span
+                              ></div
+                            ></a
+                          ></li
+                        ></ul
+                      ></div
+                    ></li
+                  ><li class="list-item"
+                    ><h3 class="thq-heading-3"><span>Micro-Nutrients</span></h3
+                    ><p class="nutrient-info-content33 thq-body-small"
+                      ><span
+                        >Micro nutrients play a crucial role in fertigation as
+                        they are essential for the overall health and growth of
+                        plants. Ferrous helps in the formation of chlorophyll
+                        and improves the plant's ability to utilize nutrients
+                        efficiently. Copper is important for enzyme activation
+                        and plays a role in photosynthesis. Zinc is necessary
+                        for hormone regulation and protein synthesis. Manganese
+                        aids in photosynthesis and nitrogen metabolism.
+                        Molybdenum is essential for nitrogen fixation and helps
+                        in enzyme activation. Chloride regulates stomatal
+                        opening and closing, while boron is crucial for cell
+                        wall formation and sugar transport within the
+                        plant.</span
+                      ></p
+                    ><div
+                      data-thq="thq-dropdown"
+                      class="nutrient-info-thq-dropdown5 list-item"
+                      ><div
+                        data-thq="thq-dropdown-toggle"
+                        class="nutrient-info-dropdown-toggle24"
+                        ><div
+                          data-thq="thq-dropdown-arrow"
+                          class="nutrient-info-dropdown-arrow5"
+                        ></div
+                        ><span class="nutrient-info-text416">Read More</span
+                        ><svg
+                          viewBox="0 0 1024 1024"
+                          class="nutrient-info-icon22"
+                        >
+                          <path d="M426 726v-428l214 214z"></path></svg></div
+                      ><ul
+                        data-thq="thq-dropdown-list"
+                        class="nutrient-info-dropdown-list5"
+                        ><li
+                          data-thq="thq-dropdown"
+                          class="nutrient-info-dropdown19 list-item"
+                          ><a href="mn-iron.html"
+                            ><div
+                              data-thq="thq-dropdown-toggle"
+                              class="nutrient-info-dropdown-toggle25"
+                              ><span class="nutrient-info-text417"
+                                ><span>Iron</span></span
+                              ></div
+                            ></a
+                          ></li
+                        ><li
+                          data-thq="thq-dropdown"
+                          class="nutrient-info-dropdown20 list-item"
+                          ><a href="mn-copper.html"
+                            ><div
+                              data-thq="thq-dropdown-toggle"
+                              class="nutrient-info-dropdown-toggle26"
+                              ><span class="nutrient-info-text418"
+                                ><span>Copper</span></span
+                              ></div
+                            ></a
+                          ></li
+                        ><li
+                          data-thq="thq-dropdown"
+                          class="nutrient-info-dropdown21 list-item"
+                          ><a href="mn-zinc.html"
+                            ><div
+                              data-thq="thq-dropdown-toggle"
+                              class="nutrient-info-dropdown-toggle27"
+                              ><span class="nutrient-info-text419"
+                                ><span>Zinc</span></span
+                              ></div
+                            ></a
+                          ></li
+                        ><li
+                          data-thq="thq-dropdown"
+                          class="nutrient-info-dropdown22 list-item"
+                          ><a href="mn-manganese.html"
+                            ><div
+                              data-thq="thq-dropdown-toggle"
+                              class="nutrient-info-dropdown-toggle28"
+                              ><span class="nutrient-info-text420"
+                                ><span>Manganese</span></span
+                              ></div
+                            ></a
+                          ></li
+                        ><li
+                          data-thq="thq-dropdown"
+                          class="nutrient-info-dropdown23 list-item"
+                          ><a href="mn-boron.html"
+                            ><div
+                              data-thq="thq-dropdown-toggle"
+                              class="nutrient-info-dropdown-toggle29"
+                              ><span class="nutrient-info-text421"
+                                ><span>Boron</span></span
+                              ></div
+                            ></a
+                          ></li
+                        ><li
+                          data-thq="thq-dropdown"
+                          class="nutrient-info-dropdown24 list-item"
+                          ><a href="mn-molybdenum.html"
+                            ><div
+                              data-thq="thq-dropdown-toggle"
+                              class="nutrient-info-dropdown-toggle30"
+                              ><span class="nutrient-info-text422"
+                                ><span>Molybdenum</span></span
+                              ></div
+                            ></a
+                          ></li
+                        ><li
+                          data-thq="thq-dropdown"
+                          class="nutrient-info-dropdown25 list-item"
+                          ><a href="mn-chloride.html"
+                            ><div
+                              data-thq="thq-dropdown-toggle"
+                              class="nutrient-info-dropdown-toggle31"
+                              ><span class="nutrient-info-text423"
+                                ><span>Chloride</span></span
+                              ></div
+                            ></a
+                          ></li
+                        ></ul
+                      ></div
+                    ></li
+                  ></ul
+                ></div
+              ></div
+            ></div
+          ></div
+        ><footer class="footer-footer footerContainer footer-root-class-name3"
+          ><div class="footer-separator"></div
+          ><div class="footer-container200 thq-flex-column"
+            ><span class="footer-text369"><span>Copyright ©</span></span
+            ><span class="footer-date-time"
+              ><date-time-primitive
+                format="YYYY"
+                date="Thu May 30 2024 10:53:54 GMT+0530 (India Standard Time)"
+              ></date-time-primitive></span
+            ><span class="footer-text370"
+              ><span
+                >&nbsp;PR Agro Nutri (Pvt.) Ltd., Hyderabad. All rights
+                reserved</span
+              ></span
+            ></div
+          ></footer
+        ></div
+      ></div
+    >
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script
+    ><script
+      defer=""
+      src="https://unpkg.com/@teleporthq/react-components/dist/animate-on-reveal.umd.js"
+    ></script></body
+></html>

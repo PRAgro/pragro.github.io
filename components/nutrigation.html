@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>PR Agro</title
+    ><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Noto Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-JG2J5G3QFE"
+    ></script
+    ><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JG2J5G3QFE');
+    </script></head
+  >
+  <body
+    ><link rel="stylesheet" href="../style.css" /><div
+      ><link href="./nutrigation.css" rel="stylesheet" /><div
+        class="nutrigation-container thq-section-padding"
+        ><div
+          class="nutrigation-max-width thq-flex-column thq-section-max-width"
+          ><div class="nutrigation-content thq-flex-column"
+            ><ul class="thq-flex-column"
+              ><li class="thq-flex-column list-item"
+                ><h2 class="nutrigation-heading7 thq-heading-2"
+                  ><span>Nutrigation / Fertigation</span></h2
+                ><p class="nutrigation-content7 thq-body-small"
+                  ><span
+                    >Plants need water and nutrients – so why not to combine the
+                    application of both. Such a combination is called
+                    nutrigation; it applies nutrients together with the
+                    irrigation water.</span
+                  ></p
+                ><p class="nutrigation-content71 thq-body-small"
+                  ><span
+                    >Scarcity of water in good quality is becoming a major
+                    concern in the world. Agriculture segment is the largest
+                    user of water, and has the target to enhance
+                    water-use-efficiency. Nutrigation technology allows a better
+                    use of water. Micro-irrigation systems have been developed,
+                    and provide a better water-use-efficiency of between 80% to
+                    90 % with Drip System, while other irrigation practices only
+                    have a 40-50 % water-use-efficiency. Drip irrigation places
+                    the water close to the roots. This reduces the volume of
+                    watered soil and the water loss by evaporation. In the past
+                    20 years, the acreage under drip irrigation has grown
+                    substantially and is growing.</span
+                  ></p
+                ></li
+              ></ul
+            ><h3 class="thq-heading-3"><span>Drip irrigation system:</span></h3
+            ><span class="nutrigation-content8 thq-body-small"
+              ><span
+                >Once a drip irrigation system is established, it invites to be
+                used not only for irrigation, but also for nutrigation, as
+                fertilizers can be easily dissolved in a tank with water prior
+                to application, and injected into the irrigation water according
+                to crop demand.</span
+              ><br /><br /></span
+            ><span class="nutrigation-content801 thq-body-small"
+              ><span
+                >The shift from traditional fertilizer practice of solid
+                fertilizers to nutrigation requires different technical know how
+                and different types of fertilizers. Micro-irrigation systems are
+                sensitive to clogging, therefore mineral particles e.g. from
+                incompletely dissolved fertilizers, precipitation or microbial
+                growth have to be avoided and the fertilizers, either in solid
+                or liquid form, as straights or ready-made mixtures have to be
+                completely water soluble.</span
+              ><br /><br /></span
+            ><span class="nutrigation-content802 thq-body-small"
+              ><span
+                >Under drip irrigated conditions, the soil volume in which the
+                roots grow will be reduced to the soil volume that is watered. A
+                high root density is found in these wet bulbs and it is crucial
+                to ensure optimum growth conditions in terms of nutrient and
+                water supply. In order to avoid salinity problems, nutrigation
+                should use fertilizers, like calcium nitrate, potassium nitrate
+                etc., which do not contain any other elements that are not
+                necessary for the nutrition of the crop.</span
+              ><br /><br /></span
+            ><span class="nutrigation-content803 thq-body-small"
+              ><span
+                >With nutrigation, plant nutrients in readily and highly
+                available form can be placed close to the roots in required
+                rates when needed. As crops require different rates of each
+                nutrient at specific physiological growth stages, nutrigation
+                enables the grower to increase yield and fine tune quality of
+                the crop and to strongly enhance fertilizer-use-efficiency. The
+                yield increase in nutrigation systems is in line with the need
+                to intensify land-use-efficiency to meet the food demand of the
+                growing population by production on a shrinking acreage of
+                available arable land. Furthermore, the higher
+                nutrient-use-efficiency is of advantage for the environment, as
+                nutrients used by the crop are not lost by leaching or gaseous
+                losses (volatilization).</span
+              ><br /><br /></span
+            ><h3 class="thq-heading-3">Benefits of Nutrigation</h3
+            ><ul class="nutrigation-ul1 thq-flex-column"
+              ><li class="list-item"
+                ><p class="thq-body-small"
+                  ><span>Nutrient availability to the plant is improved.</span
+                  ><br /></p></li
+              ><li class="list-item"
+                ><p class="thq-body-small"
+                  ><span>Nutrient uptake efficiency is increased.</span
+                  ><br /></p></li
+              ><li class="list-item"
+                ><p class="thq-body-small"
+                  ><span
+                    >Fertilizer application rates and water requirements are
+                    reduced.</span
+                  ><br /></p></li
+              ><li class="list-item"
+                ><p class="thq-body-small"
+                  ><span>Losses by leaching are minimized.</span><br /></p></li
+              ><li class="list-item"
+                ><p class="thq-body-small"
+                  ><span>Salt injuries to roots and foliage are prevented.</span
+                  ><br /></p></li
+              ><li class="list-item"
+                ><p class="thq-body-small"
+                  >Soil compaction is reduced due to less field operations.</p
+                ></li
+              ><li class="list-item"
+                ><p class="thq-body-small"
+                  ><span>Weed population is decreased.</span><br /></p></li
+              ><li class="list-item"
+                ><p class="thq-body-small"
+                  ><span
+                    >Contamination of soil and groundwater is minimized.</span
+                  ><span> </span></p></li></ul></div
+          ><div class="nutrigation-content1 thq-flex-column"
+            ><p class="nutrigation-heading82"
+              ><span>Together </span
+              ><span
+                >with our alliance partners Haifa Chemicals Ltd, Nouryon
+                Functional Chemicals B.V(formerly known as Akzo-Nobel), Yara
+                International , Minera Santa Rita and </span
+              ><span>Tessenderlo </span><span>Chemie, </span><span>PR </span
+              ><span>Agro </span
+              ><span
+                >offers the whole range of highly water-soluble fertilizers and
+                chelated micronutrients, which suits best to fertigation
+                systems.</span
+              ></p
+            ></div
+          ></div
+        ><img
+          alt="image"
+          src="public/Other Pics/nutrigation-1500w.webp"
+          class="nutrigation-image" /></div
+    ></div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script
+    ><script
+      defer=""
+      src="https://unpkg.com/@teleporthq/react-components/dist/animate-on-reveal.umd.js"
+    ></script></body
+></html>

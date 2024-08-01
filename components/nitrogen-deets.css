@@ -1,0 +1,659 @@
+.nitrogen-deets-container {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+}
+.nitrogen-deets-content2 {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+}
+.nitrogen-deets-text {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.nitrogen-deets-container01 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.nitrogen-deets-container02 {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-custom-secondary1);
+}
+.nitrogen-deets-text01 {
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container03 {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-custom-secondary1);
+}
+.nitrogen-deets-text02 {
+  width: auto;
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container04 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.nitrogen-deets-container05 {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-custom-primary2);
+}
+.nitrogen-deets-text03 {
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container06 {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.nitrogen-deets-text04 {
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container07 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.nitrogen-deets-container08 {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-custom-primary2);
+}
+.nitrogen-deets-text05 {
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container09 {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.nitrogen-deets-text06 {
+  width: 20px;
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container10 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.nitrogen-deets-container11 {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-custom-primary2);
+}
+.nitrogen-deets-text07 {
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container12 {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.nitrogen-deets-text08 {
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container13 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.nitrogen-deets-container14 {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-custom-primary2);
+}
+.nitrogen-deets-text09 {
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container15 {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.nitrogen-deets-text10 {
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container16 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.nitrogen-deets-container17 {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-custom-primary2);
+}
+.nitrogen-deets-text11 {
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container18 {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.nitrogen-deets-text12 {
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container19 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.nitrogen-deets-container20 {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-custom-primary2);
+}
+.nitrogen-deets-text13 {
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container21 {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.nitrogen-deets-text14 {
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container22 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.nitrogen-deets-container23 {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-custom-primary2);
+}
+.nitrogen-deets-text15 {
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container24 {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.nitrogen-deets-text16 {
+  width: auto;
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container25 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.nitrogen-deets-container26 {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-custom-primary2);
+}
+.nitrogen-deets-text17 {
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container27 {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.nitrogen-deets-text18 {
+  width: auto;
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container28 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.nitrogen-deets-container29 {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-custom-primary2);
+}
+.nitrogen-deets-text19 {
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container30 {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.nitrogen-deets-text20 {
+  width: auto;
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container31 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.nitrogen-deets-container32 {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-custom-primary2);
+}
+.nitrogen-deets-text21 {
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-container33 {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.nitrogen-deets-text22 {
+  width: auto;
+  align-self: center;
+  text-align: justify;
+}
+.nitrogen-deets-root-class-name {
+  align-self: flex-start;
+}
+@media(max-width: 767px) {
+  .nitrogen-deets-container05 {
+    position: relative;
+  }
+  .nitrogen-deets-text03 {
+    width: auto;
+    text-align: center;
+  }
+  .nitrogen-deets-container06 {
+    position: relative;
+  }
+  .nitrogen-deets-text04 {
+    width: auto;
+    text-align: center;
+  }
+  .nitrogen-deets-container08 {
+    position: relative;
+  }
+  .nitrogen-deets-text05 {
+    width: auto;
+    text-align: center;
+  }
+  .nitrogen-deets-container09 {
+    position: relative;
+  }
+  .nitrogen-deets-text06 {
+    width: auto;
+    text-align: center;
+  }
+  .nitrogen-deets-container11 {
+    position: relative;
+  }
+  .nitrogen-deets-text07 {
+    width: auto;
+    text-align: center;
+  }
+  .nitrogen-deets-container12 {
+    position: relative;
+  }
+  .nitrogen-deets-text08 {
+    width: auto;
+    text-align: center;
+  }
+  .nitrogen-deets-container14 {
+    position: relative;
+  }
+  .nitrogen-deets-text09 {
+    width: auto;
+    text-align: center;
+  }
+  .nitrogen-deets-container15 {
+    position: relative;
+  }
+  .nitrogen-deets-text10 {
+    width: auto;
+    text-align: center;
+  }
+  .nitrogen-deets-container17 {
+    position: relative;
+  }
+  .nitrogen-deets-text11 {
+    width: auto;
+    text-align: center;
+  }
+  .nitrogen-deets-container18 {
+    position: relative;
+  }
+  .nitrogen-deets-text12 {
+    width: auto;
+    text-align: center;
+  }
+  .nitrogen-deets-container20 {
+    position: relative;
+  }
+  .nitrogen-deets-text13 {
+    width: auto;
+    text-align: center;
+  }
+  .nitrogen-deets-container21 {
+    position: relative;
+  }
+  .nitrogen-deets-text14 {
+    width: auto;
+    text-align: center;
+  }
+  .nitrogen-deets-container23 {
+    position: relative;
+  }
+  .nitrogen-deets-text15 {
+    width: auto;
+    text-align: center;
+  }
+  .nitrogen-deets-container24 {
+    position: relative;
+  }
+  .nitrogen-deets-text16 {
+    width: auto;
+    text-align: center;
+  }
+  .nitrogen-deets-container26 {
+    position: relative;
+  }
+  .nitrogen-deets-text17 {
+    width: auto;
+    text-align: center;
+  }
+  .nitrogen-deets-container27 {
+    position: relative;
+  }
+  .nitrogen-deets-text18 {
+    width: auto;
+    text-align: center;
+  }
+  .nitrogen-deets-container29 {
+    position: relative;
+  }
+  .nitrogen-deets-text19 {
+    width: auto;
+    text-align: center;
+  }
+  .nitrogen-deets-container30 {
+    position: relative;
+  }
+  .nitrogen-deets-text20 {
+    width: auto;
+    text-align: center;
+  }
+  .nitrogen-deets-container32 {
+    position: relative;
+  }
+  .nitrogen-deets-text21 {
+    width: auto;
+    text-align: center;
+  }
+  .nitrogen-deets-container33 {
+    position: relative;
+  }
+  .nitrogen-deets-text22 {
+    width: auto;
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .nitrogen-deets-container02 {
+    width: 50%;
+  }
+  .nitrogen-deets-container03 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .nitrogen-deets-container05 {
+    width: 50%;
+  }
+  .nitrogen-deets-container06 {
+    width: 50%;
+  }
+  .nitrogen-deets-container08 {
+    width: 50%;
+  }
+  .nitrogen-deets-container09 {
+    width: 50%;
+  }
+  .nitrogen-deets-container11 {
+    width: 50%;
+  }
+  .nitrogen-deets-container12 {
+    width: 50%;
+  }
+  .nitrogen-deets-container14 {
+    width: 50%;
+  }
+  .nitrogen-deets-container15 {
+    width: 50%;
+  }
+  .nitrogen-deets-container17 {
+    width: 50%;
+  }
+  .nitrogen-deets-container18 {
+    width: 50%;
+  }
+  .nitrogen-deets-container20 {
+    width: 50%;
+  }
+  .nitrogen-deets-container21 {
+    width: 50%;
+  }
+  .nitrogen-deets-container23 {
+    width: 50%;
+  }
+  .nitrogen-deets-container24 {
+    width: 50%;
+  }
+  .nitrogen-deets-container26 {
+    width: 50%;
+  }
+  .nitrogen-deets-container27 {
+    width: 50%;
+  }
+  .nitrogen-deets-container29 {
+    width: 50%;
+  }
+  .nitrogen-deets-container30 {
+    width: 50%;
+  }
+  .nitrogen-deets-container32 {
+    width: 50%;
+  }
+  .nitrogen-deets-container33 {
+    width: 50%;
+  }
+  .nitrogen-deets-root-class-name {
+    max-width: auto;
+  }
+}

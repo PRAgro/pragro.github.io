@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>PR Agro</title
+    ><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Noto Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-JG2J5G3QFE"
+    ></script
+    ><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JG2J5G3QFE');
+    </script></head
+  >
+  <body
+    ><link rel="stylesheet" href="../style.css" /><div
+      ><link href="./contact-locations.css" rel="stylesheet" /><div
+        class="contact-locations-container thq-section-padding"
+        ><div class="contact-locations-max-width thq-section-max-width"
+          ><div class="contact-locations-content thq-flex-row-1"
+            ><div class="contact-locations-content1"
+              ><h2 class="thq-heading-2"
+                ><span>Explore Our Network of Branches Across India</span></h2
+              ><a
+                href="https://wa.me/9440404944?text=I%27m%20enquiring%20about%20the%20products"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="contact-locations-link"
+                ><p class="contact-locations-text01 thq-body-large"
+                  ><span>Whatsapp : +91-9440404944</span></p
+                ></a
+              ></div
+            ></div
+          ><div class="contact-locations-content2 thq-flex-row-1"
+            ><div class="contact-locations-container01"
+              ><img
+                alt="Head Office Image"
+                src="public/contact-pics/ap%2Ctel-1400w.webp"
+                class="contact-locations-image thq-img-ratio-4-3"
+              /><h3 class="contact-locations-text02 thq-heading-3"
+                ><span>Andhra Pradesh, Karnataka &amp; Telangana</span></h3
+              ><a
+                href="mailto:vinay@pragro.com?subject=Enquiry about products"
+                class="contact-locations-link01"
+                ><p class="contact-locations-text03 thq-body-large"
+                  ><span>vinay@pragro.com</span></p
+                ></a
+              ><div class="contact-locations-container02"
+                ><a
+                  href="tel:+91409440404933"
+                  class="contact-locations-link02 thq-body-small thq-button-flat"
+                  ><span>+919440404933</span></a
+                ></div
+              ></div
+            ><div class="contact-locations-container03"
+              ><img
+                alt="Head Office Image"
+                src="public/contact-pics/tn%2Cker-1400w.webp"
+                class="contact-locations-image1 thq-img-ratio-4-3"
+              /><h3 class="contact-locations-text04 thq-heading-3"
+                ><span>Tamil Nadu, Kerala &amp; Pondicherry</span></h3
+              ><a
+                href="mailto:sarvanan@pragro.com?subject=Enquiry about Products"
+                class="contact-locations-link03"
+                ><p class="contact-locations-text05 thq-body-large"
+                  ><span>sarvanan@pragro.com</span></p
+                ></a
+              ><div class="contact-locations-container04"
+                ><a
+                  href="tel:+919443133784"
+                  class="contact-locations-link04 thq-body-small thq-button-flat"
+                  ><span>+919443133784</span></a
+                ></div
+              ></div
+            ><div class="contact-locations-container05"
+              ><img
+                alt="Regional Office Image"
+                src="public/contact-pics/mah-1400w.webp"
+                class="contact-locations-image2 thq-img-ratio-4-3"
+              /><h3 class="contact-locations-text06 thq-heading-3"
+                ><span>Maharashtra</span></h3
+              ><div class="contact-locations-container06"
+                ><a
+                  href="mailto:manojpal@pragro.com?subject=Enquiry about Products"
+                  class="contact-locations-link05"
+                  ><p class="contact-locations-text07 thq-body-large"
+                    ><span class="contact-locations-text08">Sholapur </span
+                    ><span>: manojpal@pragro.com</span></p
+                  ></a
+                ><a
+                  href="tel:+919422459820"
+                  class="contact-locations-link06 thq-body-small thq-button-flat"
+                  >+919422459820</a
+                ></div
+              ><div class="contact-locations-container07"
+                ><a
+                  href="mailto:amol@pragro.com?subject=Enquiry about Products"
+                  class="contact-locations-link07"
+                  ><p class="contact-locations-text10 thq-body-large"
+                    ><span class="contact-locations-text11">Sangli&nbsp;</span
+                    ><span>: amol@pragro.com</span></p
+                  ></a
+                ><a
+                  href="tel:+919422754509"
+                  class="contact-locations-link08 thq-body-small thq-button-flat"
+                  >+919422754509</a
+                ></div
+              ><div class="contact-locations-container08"
+                ><a
+                  href="mailto:kalyan@pragro.com?subject=Enquiry about Products"
+                  class="contact-locations-link09"
+                  ><p class="contact-locations-text13 thq-body-large"
+                    ><span class="contact-locations-text14">Baramati&nbsp;</span
+                    ><span>: kalyan@pragro.com</span></p
+                  ></a
+                ><a
+                  href="tel:+919423584415"
+                  class="contact-locations-link10 thq-body-small thq-button-flat"
+                  >+919423584415</a
+                ></div
+              ><div class="contact-locations-container09"
+                ><a
+                  href="mailto:mapari@pragro.com?subject=Enquiry about Products"
+                  class="contact-locations-link11"
+                  ><p class="contact-locations-text16 thq-body-large"
+                    ><span class="contact-locations-text17">Nashik&nbsp;</span
+                    ><span>: mapari@pragro.com</span></p
+                  ></a
+                ><a
+                  href="tel:+919422258772"
+                  class="contact-locations-link12 thq-body-small thq-button-flat"
+                  >+919422258772</a
+                ></div
+              ></div
+            ><div class="contact-locations-container10"
+              ><img
+                alt="Regional Office Image"
+                src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+                class="contact-locations-image3 thq-img-ratio-4-3"
+              /><h3 class="contact-locations-text19 thq-heading-3"
+                >Rest of India</h3
+              ><a
+                href="mailto:arupkumar@pragro.com?subject=Enquiry about Products"
+                ><p class="contact-locations-text20 thq-body-large"
+                  >arupkumar@pragro.com</p
+                ></a
+              ><div class="contact-locations-container11"
+                ><a
+                  href="tel:+919422003602"
+                  class="contact-locations-link14 thq-body-small thq-button-flat"
+                  >+919422003602</a
+                ></div
+              ></div
+            ></div
+          ></div
+        ></div
+      ></div
+    >
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script
+    ><script
+      defer=""
+      src="https://unpkg.com/@teleporthq/react-components/dist/animate-on-reveal.umd.js"
+    ></script></body
+></html>

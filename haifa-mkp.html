@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>Haifa-MKP - PR Agro</title
+    ><meta property="og:title" content="Haifa-MKP - PR Agro" /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Noto Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-JG2J5G3QFE"
+    ></script
+    ><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JG2J5G3QFE');
+    </script></head
+  >
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./haifa-mkp.css" rel="stylesheet" /><script
+        type="text/javascript"
+        src="https://github.com/teleporthq/date-time-primitive/blob/main/dist/default/lib.umd.js"
+      ></script
+      ><div class="haifa-mkp-container"
+        ><div class="navigation-container1816 navigation-root-class-name19"
+          ><div class="navigation-container1817"
+            ><a href="index.html" class="navigation-navlink323"
+              ><img
+                alt="image"
+                src="public/logos/pragro-1500h.webp"
+                loading="eager"
+                class="navigation-image229" /></a
+            ><div class="navigation-container1818 thq-section-max-width"
+              ><animate-on-reveal
+                animation="pulse"
+                duration="1500ms"
+                delay="1500ms"
+                direction="normal"
+                easing="linear"
+                iteration="10000"
+                ><a href="index.html"
+                  ><h1
+                    data-thq-animate-on-reveal="true"
+                    class="navigation-text2718"
+                    ><span>PR Agro Nutri (Pvt.) Ltd.</span></h1
+                  ></a
+                ></animate-on-reveal
+              ><div class="navigation-container1819"
+                ><a href="index.html" class="navigation-navlink325"
+                  ><span>Home</span></a
+                ><a href="nutrients.html" class="navigation-navlink326"
+                  ><span>Nutrients</span></a
+                ><a href="growing-practice.html" class="navigation-navlink327"
+                  ><span>Growing Methods</span></a
+                ><a href="products.html" class="navigation-navlink328"
+                  ><span>Products</span></a
+                ><a href="contact-us.html" class="navigation-navlink329"
+                  ><span>Contact Us</span></a
+                ><span class="navigation-text2719"
+                  ><span>Investor Relations</span></span
+                ></div
+              ></div
+            ></div
+          ></div
+        ><div
+          class="haifa-mkp-container01 thq-flex-column thq-section-max-width"
+          ><h1>AgriPLUS™ Mono-Potassium Phosphate 0-52-34 </h1
+          ><span class="haifa-mkp-text001 thq-body-small"
+            >AgriPLUS™ MKP is a fully water-soluble mono-potassium phosphate
+            fertilizer, a highly efficient source of phosphorus and potassium
+            for plants. As a nitrogen-free fertilizer, AgriPLUS™MKP is the
+            preferred source of phosphorus and potassium when nitrogen
+            fertilization should be limited. A common case is at early growing
+            season, when phosphorus and potassium are needed at high rates for
+            the establishment of root system. Application of AgriPLUS™MKP at the
+            productive stages of sugar-rich fruit crops helps to increase sugar
+            content and to improve the quality of these.</span
+          ><span class="haifa-mkp-text002 thq-body-small"
+            >AgriPLUS™ MKP can be applied in combination with other fertilizers
+            to meet crop nutritional needs throughout the growth cycle. It's
+            high purity and water-solubility make AgriPLUS™ MKP an ideal
+            fertilizer for nutrigation and for foliar nutrition.</span
+          ><span class="haifa-mkp-text003 thq-body-small"
+            >Additionally, AgriPLUS™MKP is suitable for preparation of
+            fertilizer blends and production of liquid fertilizers. When applied
+            as foliar spray, AgriPLUS™ MKP acts as a suppressor of powdery
+            mildew.</span
+          ><h2 class="haifa-mkp-text004">Advantages of AgriPLUS™ MKP</h2
+          ><ul class="haifa-mkp-ul list"
+            ><li class="list-item"
+              ><span><span>Fully Water Soluble.</span><br /><br /></span></li
+            ><li class="list-item"
+              ><span
+                ><span>Consists of 100% plant nutrients.</span
+                ><br /><br /></span></li
+            ><li class="list-item"
+              ><span
+                ><span
+                  >Free of chloride, sodium and other detrimental
+                  elements.</span
+                ><br /><br /></span></li
+            ><li class="list-item"
+              ><span
+                ><span
+                  >Safe for plants, has a moderately low pH and low salt index
+                  .</span
+                ><br /><br /></span></li></ul></div
+        ><div class="haifa-mkp-container02 thq-section-max-width"
+          ><h2 class="haifa-mkp-text021"><span>Product analysis</span><br /></h2
+          ><div class="haifa-mkp-container03"
+            ><div class="haifa-mkp-container04"
+              ><span class="haifa-mkp-text024 thq-body-small"
+                >Nutrient</span
+              ></div
+            ><div class="haifa-mkp-container05"
+              ><span class="haifa-mkp-text025 thq-body-small"
+                >Content</span
+              ></div
+            ></div
+          ><div class="haifa-mkp-container06"
+            ><div class="haifa-mkp-container07"
+              ><span class="haifa-mkp-text026">P2O5</span></div
+            ><div class="haifa-mkp-container08"
+              ><span class="haifa-mkp-text027"
+                ><span>52%</span><br /></span></div></div
+          ><div class="haifa-mkp-container09"
+            ><div class="haifa-mkp-container10"
+              ><span class="haifa-mkp-text030">P </span></div
+            ><div class="haifa-mkp-container11"
+              ><span class="haifa-mkp-text031"
+                ><span>22.7%</span><br /></span></div></div
+          ><div class="haifa-mkp-container12"
+            ><div class="haifa-mkp-container13"
+              ><span class="haifa-mkp-text034">K2O </span></div
+            ><div class="haifa-mkp-container14"
+              ><span class="haifa-mkp-text035"
+                ><span>34%</span><br /></span></div></div
+          ><div class="haifa-mkp-container15"
+            ><div class="haifa-mkp-container16"
+              ><span class="haifa-mkp-text038">K</span></div
+            ><div class="haifa-mkp-container17"
+              ><span class="haifa-mkp-text039"
+                ><span>28.7%</span><br /></span></div></div
+          ><div class="haifa-mkp-container18"
+            ><div class="haifa-mkp-container19"
+              ><span class="haifa-mkp-text042">Bulk density </span></div
+            ><div class="haifa-mkp-container20"
+              ><span class="haifa-mkp-text043"
+                ><span>1.2 g/cm3</span><br /></span></div></div></div
+        ><div
+          class="haifa-mkp-container21 thq-flex-column thq-section-max-width"
+          ><span class="haifa-mkp-text046 thq-body-small"
+            >Double benefit: AgriPLUS™13-00-45 is not only an efficient source
+            of potassium, but also facilitates plant uptake of the Ca &amp; Mg
+            present in the soil. This is due to the synergistic effect of
+            negatively charged (anion) nitrate nitrogen (NO3-) in
+            AgriPLUS™13-00-45, which helps in uptake of positively charged ions
+            (cations) like K+, Ca++ &amp; Mg+.</span
+          ><h2 class="haifa-mkp-text047">Solubility</h2
+          ><span class="haifa-mkp-text048 thq-body-small"
+            >The solubility of AgriPLUS™ MKP is enhanced by increase in water
+            temperature.</span
+          ></div
+        ><div class="haifa-mkp-container22 thq-section-max-width"
+          ><div class="haifa-mkp-container23"
+            ><div class="haifa-mkp-container24"
+              ><span class="haifa-mkp-text049"
+                >Water Temperature (C)
+              </span></div
+            ><div class="haifa-mkp-container25"
+              ><span class="haifa-mkp-text050"><span>0</span><br /></span></div
+            ><div class="haifa-mkp-container26"
+              ><span class="haifa-mkp-text053"><span>10</span><br /></span></div
+            ><div class="haifa-mkp-container27"
+              ><span class="haifa-mkp-text056"><span>20</span><br /></span></div
+            ><div class="haifa-mkp-container28"
+              ><span class="haifa-mkp-text059"><span>30</span><br /></span></div
+            ><div class="haifa-mkp-container29"
+              ><span class="haifa-mkp-text062"
+                ><span>40</span><br /></span></div></div
+          ><div class="haifa-mkp-container30"
+            ><div class="haifa-mkp-container31"
+              ><span class="haifa-mkp-text065">g/1000 g water </span></div
+            ><div class="haifa-mkp-container32"
+              ><span class="haifa-mkp-text066">14.8</span></div
+            ><div class="haifa-mkp-container33"
+              ><span class="haifa-mkp-text067"
+                ><span>18.3</span><br /></span></div
+            ><div class="haifa-mkp-container34"
+              ><span class="haifa-mkp-text070"
+                ><span>22.6</span><br /></span></div
+            ><div class="haifa-mkp-container35"
+              ><span class="haifa-mkp-text073"><span>28</span><br /></span></div
+            ><div class="haifa-mkp-container36"
+              ><span class="haifa-mkp-text076"
+                ><span>33.5</span><br /></span></div></div></div
+        ><div
+          class="haifa-mkp-container37 thq-flex-column thq-section-max-width"
+          ><h2 class="haifa-mkp-text079"><span>EC &amp; PH</span><br /></h2
+          ><span class="haifa-mkp-text082 thq-body-small"
+            >AgriPLUS™ MKP has a moderately low pH that remains almost constant
+            at different concentrations</span
+          ><span class="haifa-mkp-text083 thq-body-small"
+            >The Electrical Conductivity (EC) increases substantially when high
+            concentration of AgriPLUS™ MKP is used and yet, its low salt index
+            assures safe use.</span
+          ></div
+        ><div class="haifa-mkp-container38 thq-section-max-width"
+          ><div class="haifa-mkp-container39"
+            ><div class="haifa-mkp-container40"
+              ><span class="haifa-mkp-text084">Concentration % </span></div
+            ><div class="haifa-mkp-container41"
+              ><span class="haifa-mkp-text085">0.1</span></div
+            ><div class="haifa-mkp-container42"
+              ><span class="haifa-mkp-text086"
+                ><span>0.2</span><br /></span></div
+            ><div class="haifa-mkp-container43"
+              ><span class="haifa-mkp-text089"
+                ><span>0.3</span><br /></span></div
+            ><div class="haifa-mkp-container44"
+              ><span class="haifa-mkp-text092"
+                ><span>1.0</span><br /></span></div></div
+          ><div class="haifa-mkp-container45"
+            ><div class="haifa-mkp-container46"
+              ><span class="haifa-mkp-text095">pH</span></div
+            ><div class="haifa-mkp-container47"
+              ><span class="haifa-mkp-text096">4.7</span></div
+            ><div class="haifa-mkp-container48"
+              ><span class="haifa-mkp-text097"
+                ><span>4.6</span><br /></span></div
+            ><div class="haifa-mkp-container49"
+              ><span class="haifa-mkp-text100"
+                ><span>4.6</span><br /></span></div
+            ><div class="haifa-mkp-container50"
+              ><span class="haifa-mkp-text103"
+                ><span>4.4</span><br /></span></div></div
+          ><div class="haifa-mkp-container51"
+            ><div class="haifa-mkp-container52"
+              ><span class="haifa-mkp-text106">EC (mS/cm) </span></div
+            ><div class="haifa-mkp-container53"
+              ><span class="haifa-mkp-text107">0.86</span></div
+            ><div class="haifa-mkp-container54"
+              ><span class="haifa-mkp-text108"
+                ><span>1.66</span><br /></span></div
+            ><div class="haifa-mkp-container55"
+              ><span class="haifa-mkp-text111"
+                ><span>2.5</span><br /></span></div
+            ><div class="haifa-mkp-container56"
+              ><span class="haifa-mkp-text114"
+                ><span>7.4</span><br /></span></div></div></div
+        ><div
+          class="contact-dealers-container1658 thq-section-padding contact-dealers-root-class-name15"
+          ><div class="thq-section-max-width"
+            ><div class="contact-dealers-accent2-bg90"
+              ><div class="contact-dealers-accent1-bg90"
+                ><div class="contact-dealers-container1659"
+                  ><div class="contact-dealers-content271"
+                    ><span class="thq-heading-2"
+                      ><span
+                        >Enhance Your Crop Quality and Yield Today</span
+                      ></span
+                    ><p class="thq-body-large"
+                      ><span>Contact Us to find the nearest dealer</span></p
+                    ></div
+                  ><a href="contact-us.html" class="contact-dealers-navlink309"
+                    ><div class="contact-dealers-actions55"
+                      ><button
+                        type="button"
+                        class="thq-button-filled contact-dealers-button84"
+                        ><span>Contact Us</span></button
+                      ></div
+                    ></a
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></div
+        ><footer
+          class="footer-footer08 footerContainer footer-root-class-name18"
+          ><div class="footer-separator08"></div
+          ><div class="footer-container1656 thq-flex-column"
+            ><span class="footer-text2545"><span>Copyright ©</span></span
+            ><span class="footer-date-time08"
+              ><date-time-primitive
+                format="YYYY"
+                date="Thu May 30 2024 10:53:54 GMT+0530 (India Standard Time)"
+              ></date-time-primitive></span
+            ><span class="footer-text2546"
+              ><span
+                >&nbsp;PR Agro Nutri (Pvt.) Ltd., Hyderabad. All rights
+                reserved</span
+              ></span
+            ></div
+          ></footer
+        ></div
+      ></div
+    >
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script
+    ><script
+      defer=""
+      src="https://unpkg.com/@teleporthq/react-components/dist/animate-on-reveal.umd.js"
+    ></script></body
+></html>

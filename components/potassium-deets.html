@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>PR Agro</title
+    ><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Noto Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-JG2J5G3QFE"
+    ></script
+    ><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JG2J5G3QFE');
+    </script></head
+  >
+  <body
+    ><link rel="stylesheet" href="../style.css" /><div
+      ><link href="./potassium-deets.css" rel="stylesheet" /><div
+        class="potassium-deets-container thq-section-max-width"
+        ><div class="potassium-deets-container01"
+          ><div class="potassium-deets-container02"
+            ><span class="potassium-deets-text thq-body-small"
+              >Material</span
+            ></div
+          ><div class="potassium-deets-container03"
+            ><span class="potassium-deets-text01 thq-body-small"
+              >Chemical Formula</span
+            ></div
+          ><div class="potassium-deets-container04"
+            ><span class="potassium-deets-text02 thq-body-small">N</span></div
+          ><div class="potassium-deets-container05"
+            ><span class="potassium-deets-text03 thq-body-small"
+              >P2O5</span
+            ></div
+          ><div class="potassium-deets-container06"
+            ><span class="potassium-deets-text04 thq-body-small">K2O</span></div
+          ><div class="potassium-deets-container07"
+            ><span class="potassium-deets-text05 thq-body-small">S</span></div
+          ><div class="potassium-deets-container08"
+            ><span class="potassium-deets-text06 thq-body-small">Mg</span></div
+          ></div
+        ><div class="potassium-deets-container09"
+          ><div class="potassium-deets-container10"
+            ><span class="potassium-deets-text07 thq-body-small"
+              >Potassium chloride
+            </span></div
+          ><div class="potassium-deets-container11"
+            ><span class="potassium-deets-text08 thq-body-small"
+              >KCl
+            </span></div
+          ><div class="potassium-deets-container12"
+            ><span class="potassium-deets-text09 thq-body-small"
+              >&nbsp;
+            </span></div
+          ><div class="potassium-deets-container13"
+            ><span class="potassium-deets-text10 thq-body-small"
+              >&nbsp;
+            </span></div
+          ><div class="potassium-deets-container14"
+            ><span class="potassium-deets-text11 thq-body-small"
+              >60 - 62</span
+            ></div
+          ><div class="potassium-deets-container15"
+            ><span class="potassium-deets-text12 thq-body-small"
+              >&nbsp;
+            </span></div
+          ><div class="potassium-deets-container16"
+            ><span class="potassium-deets-text13 thq-body-small"
+              >&nbsp;
+            </span></div
+          ></div
+        ><div class="potassium-deets-container17"
+          ><div class="potassium-deets-container18"
+            ><span class="potassium-deets-text14 thq-body-small"
+              >Potassium sulfate
+            </span></div
+          ><div class="potassium-deets-container19"
+            ><span class="potassium-deets-text15 thq-body-small"
+              >K2SO4
+            </span></div
+          ><div class="potassium-deets-container20"
+            ><span class="potassium-deets-text16 thq-body-small"
+              >&nbsp;
+            </span></div
+          ><div class="potassium-deets-container21"
+            ><span class="potassium-deets-text17 thq-body-small"
+              >&nbsp;
+            </span></div
+          ><div class="potassium-deets-container22"
+            ><span class="potassium-deets-text18 thq-body-small"
+              >50 - 52
+            </span></div
+          ><div class="potassium-deets-container23"
+            ><span class="potassium-deets-text19 thq-body-small">18</span></div
+          ><div class="potassium-deets-container24"
+            ><span class="potassium-deets-text20 thq-body-small"
+              >&nbsp;
+            </span></div
+          ></div
+        ><div class="potassium-deets-container25"
+          ><div class="potassium-deets-container26"
+            ><span class="potassium-deets-text21 thq-body-small"
+              >Potassium magnesium sulfate
+            </span></div
+          ><div class="potassium-deets-container27"
+            ><span class="potassium-deets-text22 thq-body-small"
+              >K2SO4 - 2MgSO4
+            </span></div
+          ><div class="potassium-deets-container28"
+            ><span class="potassium-deets-text23 thq-body-small"
+              >&nbsp;
+            </span></div
+          ><div class="potassium-deets-container29"
+            ><span class="potassium-deets-text24 thq-body-small"
+              >&nbsp;
+            </span></div
+          ><div class="potassium-deets-container30"
+            ><span class="potassium-deets-text25 thq-body-small">22</span></div
+          ><div class="potassium-deets-container31"
+            ><span class="potassium-deets-text26 thq-body-small"
+              >&nbsp;22</span
+            ></div
+          ><div class="potassium-deets-container32"
+            ><span class="potassium-deets-text27 thq-body-small">11</span></div
+          ></div
+        ><div class="potassium-deets-container33"
+          ><div class="potassium-deets-container34"
+            ><span class="potassium-deets-text28 thq-body-small"
+              >Potassium nitrate
+            </span></div
+          ><div class="potassium-deets-container35"
+            ><span class="potassium-deets-text29 thq-body-small"
+              >KNO3
+            </span></div
+          ><div class="potassium-deets-container36"
+            ><span class="potassium-deets-text30 thq-body-small">13</span></div
+          ><div class="potassium-deets-container37"
+            ><span class="potassium-deets-text31 thq-body-small"
+              >&nbsp;
+            </span></div
+          ><div class="potassium-deets-container38"
+            ><span class="potassium-deets-text32 thq-body-small">45</span></div
+          ><div class="potassium-deets-container39"
+            ><span class="potassium-deets-text33 thq-body-small"
+              >&nbsp;&nbsp;</span
+            ></div
+          ><div class="potassium-deets-container40"
+            ><span class="potassium-deets-text34 thq-body-small"
+              >&nbsp;
+            </span></div
+          ></div
+        ><div class="potassium-deets-container41"
+          ><div class="potassium-deets-container42"
+            ><span class="potassium-deets-text35 thq-body-small"
+              >Potassium sodium nitrate
+            </span></div
+          ><div class="potassium-deets-container43"
+            ><span class="potassium-deets-text36 thq-body-small"
+              >KNa(N03)2
+            </span></div
+          ><div class="potassium-deets-container44"
+            ><span class="potassium-deets-text37 thq-body-small">15</span></div
+          ><div class="potassium-deets-container45"
+            ><span class="potassium-deets-text38 thq-body-small"
+              >&nbsp;
+            </span></div
+          ><div class="potassium-deets-container46"
+            ><span class="potassium-deets-text39 thq-body-small">14</span></div
+          ><div class="potassium-deets-container47"
+            ><span class="potassium-deets-text40 thq-body-small"
+              >&nbsp;&nbsp;</span
+            ></div
+          ><div class="potassium-deets-container48"
+            ><span class="potassium-deets-text41 thq-body-small"
+              >&nbsp;
+            </span></div
+          ></div
+        ><div class="potassium-deets-container49"
+          ><div class="potassium-deets-container50"
+            ><span class="potassium-deets-text42 thq-body-small"
+              >Potassium hydroxide
+            </span></div
+          ><div class="potassium-deets-container51"
+            ><span class="potassium-deets-text43 thq-body-small"
+              >KOH
+            </span></div
+          ><div class="potassium-deets-container52"
+            ><span class="potassium-deets-text44 thq-body-small"
+              >&nbsp;
+            </span></div
+          ><div class="potassium-deets-container53"
+            ><span class="potassium-deets-text45 thq-body-small"
+              >&nbsp;
+            </span></div
+          ><div class="potassium-deets-container54"
+            ><span class="potassium-deets-text46 thq-body-small">83</span></div
+          ><div class="potassium-deets-container55"
+            ><span class="potassium-deets-text47 thq-body-small"
+              >&nbsp;&nbsp;</span
+            ></div
+          ><div class="potassium-deets-container56"
+            ><span class="potassium-deets-text48 thq-body-small"
+              >&nbsp;
+            </span></div
+          ></div
+        ><div class="potassium-deets-container57"
+          ><div class="potassium-deets-container58"
+            ><span class="potassium-deets-text49 thq-body-small"
+              >Potassium carbonate
+            </span></div
+          ><div class="potassium-deets-container59"
+            ><span class="potassium-deets-text50 thq-body-small"
+              >K2CO3
+            </span></div
+          ><div class="potassium-deets-container60"
+            ><span class="potassium-deets-text51 thq-body-small"
+              >&nbsp;
+            </span></div
+          ><div class="potassium-deets-container61"
+            ><span class="potassium-deets-text52 thq-body-small"
+              >&nbsp;
+            </span></div
+          ><div class="potassium-deets-container62"
+            ><span class="potassium-deets-text53 thq-body-small"
+              >&lt;68</span
+            ></div
+          ><div class="potassium-deets-container63"
+            ><span class="potassium-deets-text54 thq-body-small"
+              >&nbsp;&nbsp;</span
+            ></div
+          ><div class="potassium-deets-container64"
+            ><span class="potassium-deets-text55 thq-body-small"
+              >&nbsp;
+            </span></div
+          ></div
+        ><div class="potassium-deets-container65"
+          ><div class="potassium-deets-container66"
+            ><span class="potassium-deets-text56 thq-body-small"
+              >Mono Potassium Phosphate
+            </span></div
+          ><div class="potassium-deets-container67"
+            ><span class="potassium-deets-text57 thq-body-small"
+              >KH2PO4
+            </span></div
+          ><div class="potassium-deets-container68"
+            ><span class="potassium-deets-text58 thq-body-small"
+              >&nbsp;
+            </span></div
+          ><div class="potassium-deets-container69"
+            ><span class="potassium-deets-text59 thq-body-small">52</span></div
+          ><div class="potassium-deets-container70"
+            ><span class="potassium-deets-text60 thq-body-small">34</span></div
+          ><div class="potassium-deets-container71"
+            ><span class="potassium-deets-text61 thq-body-small"
+              >&nbsp;&nbsp;</span
+            ></div
+          ><div class="potassium-deets-container72"
+            ><span class="potassium-deets-text62 thq-body-small"
+              >&nbsp;
+            </span></div
+          ></div
+        ><div class="potassium-deets-container73"
+          ><div class="potassium-deets-container74"
+            ><span class="potassium-deets-text63 thq-body-small"
+              >Potassium poly phosphates
+            </span></div
+          ><div class="potassium-deets-container75"
+            ><span class="potassium-deets-text64 thq-body-small"
+              >K4P2O7
+            </span></div
+          ><div class="potassium-deets-container76"
+            ><span class="potassium-deets-text65 thq-body-small"
+              >&nbsp;
+            </span></div
+          ><div class="potassium-deets-container77"
+            ><span class="potassium-deets-text66 thq-body-small"
+              >40 - 60</span
+            ></div
+          ><div class="potassium-deets-container78"
+            ><span class="potassium-deets-text67 thq-body-small"
+              >22 - 48</span
+            ></div
+          ><div class="potassium-deets-container79"
+            ><span class="potassium-deets-text68 thq-body-small"
+              >&nbsp;&nbsp;</span
+            ></div
+          ><div class="potassium-deets-container80"
+            ><span class="potassium-deets-text69 thq-body-small"
+              >&nbsp;
+            </span></div
+          ></div
+        ><div class="potassium-deets-container81"
+          ><div class="potassium-deets-container82"
+            ><span class="potassium-deets-text70 thq-body-small"
+              >Potassium meta phosphate
+            </span></div
+          ><div class="potassium-deets-container83"
+            ><span class="potassium-deets-text71 thq-body-small"
+              >KPO
+            </span></div
+          ><div class="potassium-deets-container84"
+            ><span class="potassium-deets-text72 thq-body-small"
+              >&nbsp;
+            </span></div
+          ><div class="potassium-deets-container85"
+            ><span class="potassium-deets-text73 thq-body-small"
+              >55 - 57</span
+            ></div
+          ><div class="potassium-deets-container86"
+            ><span class="potassium-deets-text74 thq-body-small">38 </span></div
+          ><div class="potassium-deets-container87"
+            ><span class="potassium-deets-text75 thq-body-small"
+              >&nbsp;&nbsp;</span
+            ></div
+          ><div class="potassium-deets-container88"
+            ><span class="potassium-deets-text76 thq-body-small"
+              >&nbsp;
+            </span></div
+          ></div
+        ></div
+      ></div
+    >
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script
+    ><script
+      defer=""
+      src="https://unpkg.com/@teleporthq/react-components/dist/animate-on-reveal.umd.js"
+    ></script></body
+></html>

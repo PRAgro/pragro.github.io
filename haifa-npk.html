@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>Haifa-NPK - PR Agro</title
+    ><meta property="og:title" content="Haifa-NPK - PR Agro" /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Noto Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-JG2J5G3QFE"
+    ></script
+    ><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JG2J5G3QFE');
+    </script></head
+  >
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./haifa-npk.css" rel="stylesheet" /><script
+        type="text/javascript"
+        src="https://github.com/teleporthq/date-time-primitive/blob/main/dist/default/lib.umd.js"
+      ></script
+      ><div class="haifa-npk-container"
+        ><div class="navigation-container542 navigation-root-class-name23"
+          ><div class="navigation-container543"
+            ><a href="index.html" class="navigation-navlink92"
+              ><img
+                alt="image"
+                src="public/logos/pragro-1500h.webp"
+                loading="eager"
+                class="navigation-image68" /></a
+            ><div class="navigation-container544 thq-section-max-width"
+              ><animate-on-reveal
+                animation="pulse"
+                duration="1500ms"
+                delay="1500ms"
+                direction="normal"
+                easing="linear"
+                iteration="10000"
+                ><a href="index.html"
+                  ><h1
+                    data-thq-animate-on-reveal="true"
+                    class="navigation-text814"
+                    ><span>PR Agro Nutri (Pvt.) Ltd.</span></h1
+                  ></a
+                ></animate-on-reveal
+              ><div class="navigation-container545"
+                ><a href="index.html" class="navigation-navlink94"
+                  ><span>Home</span></a
+                ><a href="nutrients.html" class="navigation-navlink95"
+                  ><span>Nutrients</span></a
+                ><a href="growing-practice.html" class="navigation-navlink96"
+                  ><span>Growing Methods</span></a
+                ><a href="products.html" class="navigation-navlink97"
+                  ><span>Products</span></a
+                ><a href="contact-us.html" class="navigation-navlink98"
+                  ><span>Contact Us</span></a
+                ><span class="navigation-text815"
+                  ><span>Investor Relations</span></span
+                ></div
+              ></div
+            ></div
+          ></div
+        ><div
+          class="haifa-npk-container01 thq-flex-column thq-section-max-width"
+          ><h1><span>AgriPLUS™ NPK's</span><br /></h1
+          ><span class="haifa-npk-text03 thq-body-small"
+            >AgriPLUS™NPK is a line of crystalline, fully water-soluble NPK
+            fertilizers specially developed for Nutrigation™ and foliar
+            nutrition in fruit-trees, green house and open-field crops</span
+          ><span class="haifa-npk-text04 thq-body-small"
+            >AgriPLUS™NPK formulae are enriched with micronutrients. The wide
+            range of products provides complete plant nutrition scheme
+            throughout the growth cycle. </span
+          ><h2 class="haifa-npk-text05">Advantages of AgriPLUS NPKs </h2
+          ><ul class="haifa-npk-ul list"
+            ><li class="list-item"
+              ><span><span>Fully Water Soluble.</span><br /><br /></span></li
+            ><li class="list-item"
+              ><span
+                ><span>Consists of 100% plant nutrients.</span
+                ><br /><br /></span></li
+            ><li class="list-item"
+              ><span
+                ><span
+                  >Virtually free of chloride, sodium and other detrimental
+                  elements for plants.</span
+                ><br /><br /></span></li
+            ><li class="list-item"
+              ><span
+                ><span>Provides balanced, complete plant nutrition.</span
+                ><br /><br /></span></li
+            ><li class="list-item"
+              ><span
+                ><span>Enriched with Micronutrients.</span
+                ><span> </span></span></li></ul></div
+        ><div class="haifa-npk-container02 thq-section-max-width"
+          ><h2 class="haifa-npk-text25"><span>Product analysis</span><br /></h2
+          ><div class="haifa-npk-container03"
+            ><div class="haifa-npk-container04"
+              ><span class="haifa-npk-text28 thq-body-small"
+                >AgriPLUS NPKs</span
+              ></div
+            ><div class="haifa-npk-container05"
+              ><span class="haifa-npk-text29 thq-body-small"
+                ><span class="haifa-npk-text30">N</span><br /></span></div
+            ><div class="haifa-npk-container06"
+              ><span class="haifa-npk-text32 thq-body-small">NH2</span></div
+            ><div class="haifa-npk-container07"
+              ><span class="haifa-npk-text33 thq-body-small">NH4</span></div
+            ><div class="haifa-npk-container08"
+              ><span class="haifa-npk-text34 thq-body-small">NO3</span></div
+            ><div class="haifa-npk-container09"
+              ><span class="haifa-npk-text35 thq-body-small">P205</span></div
+            ><div class="haifa-npk-container10"
+              ><span class="haifa-npk-text36 thq-body-small">K20</span></div
+            ></div
+          ><div class="haifa-npk-container11"
+            ><div class="haifa-npk-container12"
+              ><span class="haifa-npk-text37 thq-body-small"
+                >AgriPLUS™ 19:19:19+
+              </span></div
+            ><div class="haifa-npk-container13"
+              ><span class="haifa-npk-text38 thq-body-small">19</span></div
+            ><div class="haifa-npk-container14"
+              ><span class="haifa-npk-text39 thq-body-small">10.5</span></div
+            ><div class="haifa-npk-container15"
+              ><span class="haifa-npk-text40 thq-body-small">4.5</span></div
+            ><div class="haifa-npk-container16"
+              ><span class="haifa-npk-text41 thq-body-small">4.0</span></div
+            ><div class="haifa-npk-container17"
+              ><span class="haifa-npk-text42 thq-body-small">19</span></div
+            ><div class="haifa-npk-container18"
+              ><span class="haifa-npk-text43 thq-body-small">19</span></div
+            ></div
+          ><div class="haifa-npk-container19"
+            ><div class="haifa-npk-container20"
+              ><span class="haifa-npk-text44 thq-body-small"
+                >AgriPLUS™ 20:20:20+
+              </span></div
+            ><div class="haifa-npk-container21"
+              ><span class="haifa-npk-text45 thq-body-small">20</span></div
+            ><div class="haifa-npk-container22"
+              ><span class="haifa-npk-text46 thq-body-small">12.1</span></div
+            ><div class="haifa-npk-container23"
+              ><span class="haifa-npk-text47 thq-body-small">3.0</span></div
+            ><div class="haifa-npk-container24"
+              ><span class="haifa-npk-text48 thq-body-small">4.9</span></div
+            ><div class="haifa-npk-container25"
+              ><span class="haifa-npk-text49 thq-body-small">20</span></div
+            ><div class="haifa-npk-container26"
+              ><span class="haifa-npk-text50 thq-body-small">20</span></div
+            ></div
+          ><div class="haifa-npk-container27"
+            ><div class="haifa-npk-container28"
+              ><span class="haifa-npk-text51 thq-body-small"
+                >AgriPLUS™ 15:15:30+
+              </span></div
+            ><div class="haifa-npk-container29"
+              ><span class="haifa-npk-text52 thq-body-small">15</span></div
+            ><div class="haifa-npk-container30"
+              ><span class="haifa-npk-text53 thq-body-small">3.3</span></div
+            ><div class="haifa-npk-container31"
+              ><span class="haifa-npk-text54 thq-body-small">3.0</span></div
+            ><div class="haifa-npk-container32"
+              ><span class="haifa-npk-text55 thq-body-small">8.7</span></div
+            ><div class="haifa-npk-container33"
+              ><span class="haifa-npk-text56 thq-body-small">15</span></div
+            ><div class="haifa-npk-container34"
+              ><span class="haifa-npk-text57 thq-body-small">30</span></div
+            ></div
+          ><div class="haifa-npk-container35"
+            ><div class="haifa-npk-container36"
+              ><span class="haifa-npk-text58 thq-body-small"
+                >AgriPLUS™ 17:10:27+
+              </span></div
+            ><div class="haifa-npk-container37"
+              ><span class="haifa-npk-text59 thq-body-small">17</span></div
+            ><div class="haifa-npk-container38"
+              ><span class="haifa-npk-text60 thq-body-small">-</span></div
+            ><div class="haifa-npk-container39"
+              ><span class="haifa-npk-text61 thq-body-small">5.6</span></div
+            ><div class="haifa-npk-container40"
+              ><span class="haifa-npk-text62 thq-body-small">11.4</span></div
+            ><div class="haifa-npk-container41"
+              ><span class="haifa-npk-text63 thq-body-small">10</span></div
+            ><div class="haifa-npk-container42"
+              ><span class="haifa-npk-text64 thq-body-small">27</span></div
+            ></div
+          ><div class="haifa-npk-container43"
+            ><div class="haifa-npk-container44"
+              ><span class="haifa-npk-text65 thq-body-small"
+                >AgriPLUS™ 13:40:13+
+              </span></div
+            ><div class="haifa-npk-container45"
+              ><span class="haifa-npk-text66 thq-body-small">13</span></div
+            ><div class="haifa-npk-container46"
+              ><span class="haifa-npk-text67 thq-body-small">-</span></div
+            ><div class="haifa-npk-container47"
+              ><span class="haifa-npk-text68 thq-body-small">8.6</span></div
+            ><div class="haifa-npk-container48"
+              ><span class="haifa-npk-text69 thq-body-small">4.4</span></div
+            ><div class="haifa-npk-container49"
+              ><span class="haifa-npk-text70 thq-body-small">40</span></div
+            ><div class="haifa-npk-container50"
+              ><span class="haifa-npk-text71 thq-body-small">13</span></div
+            ></div
+          ></div
+        ><div
+          class="contact-dealers-container384 thq-section-padding contact-dealers-root-class-name19"
+          ><div class="thq-section-max-width"
+            ><div class="contact-dealers-accent2-bg20"
+              ><div class="contact-dealers-accent1-bg20"
+                ><div class="contact-dealers-container385"
+                  ><div class="contact-dealers-content68"
+                    ><span class="thq-heading-2"
+                      ><span
+                        >Enhance Your Crop Quality and Yield Today</span
+                      ></span
+                    ><p class="thq-body-large"
+                      ><span>Contact Us to find the nearest dealer</span></p
+                    ></div
+                  ><a href="contact-us.html" class="contact-dealers-navlink78"
+                    ><div class="contact-dealers-actions13"
+                      ><button
+                        type="button"
+                        class="thq-button-filled contact-dealers-button21"
+                        ><span>Contact Us</span></button
+                      ></div
+                    ></a
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></div
+        ><footer class="footer-footer1 footerContainer footer-root-class-name22"
+          ><div class="footer-separator1"></div
+          ><div class="footer-container382 thq-flex-column"
+            ><span class="footer-text641"><span>Copyright ©</span></span
+            ><span class="footer-date-time1"
+              ><date-time-primitive
+                format="YYYY"
+                date="Thu May 30 2024 10:53:54 GMT+0530 (India Standard Time)"
+              ></date-time-primitive></span
+            ><span class="footer-text642"
+              ><span
+                >&nbsp;PR Agro Nutri (Pvt.) Ltd., Hyderabad. All rights
+                reserved</span
+              ></span
+            ></div
+          ></footer
+        ></div
+      ></div
+    >
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script
+    ><script
+      defer=""
+      src="https://unpkg.com/@teleporthq/react-components/dist/animate-on-reveal.umd.js"
+    ></script></body
+></html>

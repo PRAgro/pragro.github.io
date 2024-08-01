@@ -1,0 +1,78 @@
+.hero-nutrient-container {
+  background-size: cover;
+  background-image: url("public/Other Pics/background%20image%20plant-1500w.webp");
+}
+.hero-nutrient-max-width {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.hero-nutrient-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-nutrient-heading1 {
+  fill: var(--dl-color-primary-100);
+  color: var(--dl-color-primary-100);
+  text-align: center;
+}
+.hero-nutrient-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+.hero-nutrient-container1 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+}
+.hero-nutrient-container2 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+.hero-nutrient-button {
+  width: auto;
+  height: 100%;
+  align-self: center;
+  text-decoration: none;
+}
+.hero-nutrient-text {
+  text-align: center;
+}
+.hero-nutrient-button1 {
+  width: auto;
+  height: 100%;
+  align-self: center;
+  margin-left: var(--dl-space-space-threeunits);
+  text-decoration: none;
+}
+.hero-nutrient-text1 {
+  text-align: center;
+}
+.hero-nutrient-root-class-name1 {
+  background-size: cover;
+  background-image: url("public/Other Pics/background%20image%20plant-200h.webp");
+}
+@media(max-width: 479px) {
+  .hero-nutrient-actions {
+    width: auto;
+    flex-direction: column;
+  }
+  .hero-nutrient-container1 {
+    width: 100%;
+  }
+  .hero-nutrient-container2 {
+    width: auto;
+  }
+  .hero-nutrient-button {
+    width: auto;
+  }
+  .hero-nutrient-button1 {
+    width: auto;
+  }
+}

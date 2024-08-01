@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>PR Agro</title
+    ><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Noto Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-JG2J5G3QFE"
+    ></script
+    ><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JG2J5G3QFE');
+    </script></head
+  >
+  <body
+    ><link rel="stylesheet" href="../style.css" /><div
+      ><link href="./foliar.css" rel="stylesheet" /><div
+        class="foliar-container thq-section-padding"
+        ><div class="foliar-max-width thq-flex-column thq-section-max-width"
+          ><div class="foliar-content thq-flex-column"
+            ><h2 class="foliar-heading7 thq-heading-2"
+              ><span>Foliar Nutrition</span></h2
+            ><h3><span>Role of foliar nutrition in plants</span></h3
+            ><p class="foliar-heading8 thq-body-small"
+              ><span
+                >The predominant route for nutrients to enter plant tissue is
+                via uptake through the roots. However, there are many situations
+                where nutrition through leaves, fruit or shoots can be a very
+                effective complementary delivery system. Leaves are not ideal
+                for water and nutrient uptake, because their architecture is to
+                protect crops against water loss as well as fungi and pest
+                attack. The cuticle, (the outer cell layer on leaves sealed with
+                wax) works as a barrier to the entrance of nutrients into the
+                plant. However, nutrients in the ionic form can penetrate either
+                through the cuticle via small cracks or through the stomata, the
+                pores in leaves for gas exchange.</span
+              ><br /></p
+            ><p class="foliar-heading81 thq-body-small"
+              ><span
+                >Foliar applications can be done either with aqueous solutions
+                or suspension of nutrients. Application rates are low, 0.5 to 10
+                kilograms of foliar fertilizer per hectare, dissolved in 50 –
+                2500 liters of water. The water rate depends on canopy size and
+                density. Foliar fertilizers are often used to supplement
+                micronutrients (Mn, Fe, Zn, Cu, B, Mo) and occasionally the
+                secondary (Ca, Mg, S) and Primary nutrients (N, P, K)</span
+              ><br /></p
+            ><h3
+              ><span>Foliar application to treat absolute deficiency</span
+              ><br /></h3
+            ><p class="foliar-heading82 thq-body-small"
+              >All nutrients play an essential role for growth and development
+              of crops. The shortage of a single nutrient becomes a bottleneck
+              of production since vital metabolic pathways are impaired. As a
+              consequence, shape and color of crops deviates from those fully
+              nourished. Visual symptoms can tell an experienced grower which
+              nutrient is lacking. Foliar application of the nutrient concerned
+              will provide an immediate relief of the problem and a normal crop
+              yield can be achieved.</p
+            ><p class="foliar-heading83 thq-body-small"
+              >Sometimes there are no visible symptoms, but foliar sprays are
+              applied to treat latent deficiencies (hidden hunger). The need for
+              such treatments is determined by a chemical analysis of the crop.
+              For almost all crops critical nutrient values are available which
+              indicate the adequate nutrient content in the tissue. If the
+              analysis for a particular nutrient is below its critical value,
+              foliar nutrition can be made to prevent the problem. Yield
+              responses to foliar nutrition can be substantial.</p
+            ><h3
+              ><span>Foliar nutrition to prevent deficiencies in fruits</span
+              ><br /></h3
+            ><p class="foliar-heading84 thq-body-small"
+              ><span
+                >Nutrient availability is not the only bottleneck for adequate
+                nutrient supply to crops. Limited nutrient transport to
+                different plant parts can also cause localized deficiencies. In
+                particular the transport of boron and calcium in the plant
+                relies on the transpiration flow, which means that tissue with
+                low transpiration rates, eg. Fruit, can easily become deficient
+                in calcium and boron.</span
+              ><br /></p
+            ><h3>Efficient foliar fertilizers</h3
+            ><p class="foliar-heading85 thq-body-small"
+              >Efficiency of foliar applications depends on crop type, leaf
+              coverage, weather conditions and product quality. It is estimated
+              that foliar treated crops will absorb about 15 – 40% of nutrients
+              applied. Efficiency of the foliar fertilizer is improved when the
+              formulation contains additives like wetting agents to enhance the
+              coverage of leaves or stickers that prevent nutrients being washed
+              off by rainfall. Together with our alliance partners Haifa
+              chemicals Ltd., Nouryon Functional Chemicals B.V(formerly known as
+              Akzo-Nobel), Yara International , Minera Santa Rita, Kheme
+              Chemicals and Tessenderlo Chemie; PR Agro offers growers an
+              extensive portfolio of foliar fertilizers combined with the
+              knowledge about optimum application rate and timing.</p
+            ></div
+          ></div
+        ><img
+          alt="image"
+          src="public/Other Pics/foliar-1500w.webp"
+          class="foliar-image" /></div
+    ></div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script
+    ><script
+      defer=""
+      src="https://unpkg.com/@teleporthq/react-components/dist/animate-on-reveal.umd.js"
+    ></script></body
+></html>

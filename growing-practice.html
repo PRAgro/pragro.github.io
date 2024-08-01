@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>Growing-Practice - PR Agro</title
+    ><meta property="og:title" content="Growing-Practice - PR Agro" /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Noto Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-JG2J5G3QFE"
+    ></script
+    ><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JG2J5G3QFE');
+    </script></head
+  >
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./growing-practice.css" rel="stylesheet" /><script
+        type="text/javascript"
+        src="https://github.com/teleporthq/date-time-primitive/blob/main/dist/default/lib.umd.js"
+      ></script
+      ><div class="growing-practice-container"
+        ><div id="Header" class="growing-practice-hero2"
+          ><div class="navigation-container5092 navigation-root-class-name2"
+            ><div class="navigation-container5093"
+              ><a href="index.html" class="navigation-navlink917"
+                ><img
+                  alt="image"
+                  src="public/logos/pragro-1500h.webp"
+                  loading="eager"
+                  class="navigation-image643" /></a
+              ><div class="navigation-container5094 thq-section-max-width"
+                ><animate-on-reveal
+                  animation="pulse"
+                  duration="1500ms"
+                  delay="1500ms"
+                  direction="normal"
+                  easing="linear"
+                  iteration="10000"
+                  ><a href="index.html"
+                    ><h1
+                      data-thq-animate-on-reveal="true"
+                      class="navigation-text7614"
+                      ><span>PR Agro Nutri (Pvt.) Ltd.</span></h1
+                    ></a
+                  ></animate-on-reveal
+                ><div class="navigation-container5095"
+                  ><a href="index.html" class="navigation-navlink919"
+                    ><span>Home</span></a
+                  ><a href="nutrients.html" class="navigation-navlink920"
+                    ><span>Nutrients</span></a
+                  ><a href="growing-practice.html" class="navigation-navlink921"
+                    ><span>Growing Methods</span></a
+                  ><a href="products.html" class="navigation-navlink922"
+                    ><span>Products</span></a
+                  ><a href="contact-us.html" class="navigation-navlink923"
+                    ><span>Contact Us</span></a
+                  ><span class="navigation-text7615"
+                    ><span>Investor Relations</span></span
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></div
+        ><div id="Hero" class="growing-practice-cta2"
+          ><div class="hero-nutrient-container4936 thq-section-padding"
+            ><div
+              class="hero-nutrient-max-width439 thq-flex-row-1 thq-section-max-width"
+              ><div class="hero-nutrient-content794"
+                ><h2 class="hero-nutrient-heading153 thq-heading-2"
+                  ><span
+                    >Boost your crop quality and productivity with our top
+                    agri-inputs</span
+                  ></h2
+                ><div class="hero-nutrient-actions164"
+                  ><div class="hero-nutrient-container4937"></div
+                  ><div class="hero-nutrient-container4938 thq-flex-row-1"
+                    ><a
+                      href="products.html"
+                      name="E"
+                      class="hero-nutrient-button247 thq-button-outline"
+                      ><span class="hero-nutrient-text7450 thq-body-small"
+                        ><span>Discover our specialty fertilizers</span></span
+                      ></a
+                    ><a
+                      href="contact-us.html"
+                      class="hero-nutrient-button248 thq-button-outline"
+                      ><span class="hero-nutrient-text7451 thq-body-small"
+                        ><span>Contact us for tailored advice</span></span
+                      ></a
+                    ></div
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></div
+        ><div id="Growing Header" class="growing-practice-cta21"
+          ><div class="growing-practice1-container4939 thq-section-padding"
+            ><div class="growing-practice1-max-width441 thq-section-max-width"
+              ><div class="growing-practice1-container4940"
+                ><h2 class="thq-heading-3">Growing Practices</h2
+                ><i class="growing-practice1-text7454 thq-body-small"
+                  >Fertilizer application methods play a crucial role in
+                  enhancing plant growth and productivity. There are several
+                  different methods of applying fertilizers, each with its own
+                  advantages and benefits. Fertigation involves the application
+                  of fertilizers through irrigation systems, allowing for
+                  precise and efficient delivery of nutrients directly to the
+                  plant roots. Foliar application involves spraying fertilizers
+                  directly onto the leaves, where they are absorbed by the plant
+                  for quick results. Controlled-release fertilizers (CRF) slowly
+                  release nutrients over time, providing a steady supply to the
+                  plants. Soil application is done by incorporating fertilizers
+                  into the soil, ensuring that the nutrients are available to
+                  the plants as they grow. Each method has its unique benefits
+                  and can be chosen based on the specific needs of the crops and
+                  soil conditions to optimize growth and yield.</i
+                ></div
+              ></div
+            ></div
+          ></div
+        ><div id="Nutrigation" class="growing-practice-cta22"
+          ><div class="nutrigation-container4916 thq-section-padding"
+            ><div
+              class="nutrigation-max-width432 thq-flex-column thq-section-max-width"
+              ><div class="nutrigation-content783 thq-flex-column"
+                ><ul class="thq-flex-column"
+                  ><li class="thq-flex-column list-item"
+                    ><h2 class="nutrigation-heading753 thq-heading-2"
+                      ><span>Nutrigation / Fertigation</span></h2
+                    ><p class="nutrigation-content754 thq-body-small"
+                      ><span
+                        >Plants need water and nutrients – so why not to combine
+                        the application of both. Such a combination is called
+                        nutrigation; it applies nutrients together with the
+                        irrigation water.</span
+                      ></p
+                    ><p class="nutrigation-content755 thq-body-small"
+                      ><span
+                        >Scarcity of water in good quality is becoming a major
+                        concern in the world. Agriculture segment is the largest
+                        user of water, and has the target to enhance
+                        water-use-efficiency. Nutrigation technology allows a
+                        better use of water. Micro-irrigation systems have been
+                        developed, and provide a better water-use-efficiency of
+                        between 80% to 90 % with Drip System, while other
+                        irrigation practices only have a 40-50 %
+                        water-use-efficiency. Drip irrigation places the water
+                        close to the roots. This reduces the volume of watered
+                        soil and the water loss by evaporation. In the past 20
+                        years, the acreage under drip irrigation has grown
+                        substantially and is growing.</span
+                      ></p
+                    ></li
+                  ></ul
+                ><h3 class="thq-heading-3"
+                  ><span>Drip irrigation system:</span></h3
+                ><span class="nutrigation-content8324 thq-body-small"
+                  ><span
+                    >Once a drip irrigation system is established, it invites to
+                    be used not only for irrigation, but also for nutrigation,
+                    as fertilizers can be easily dissolved in a tank with water
+                    prior to application, and injected into the irrigation water
+                    according to crop demand.</span
+                  ><br /><br /></span
+                ><span class="nutrigation-content8325 thq-body-small"
+                  ><span
+                    >The shift from traditional fertilizer practice of solid
+                    fertilizers to nutrigation requires different technical know
+                    how and different types of fertilizers. Micro-irrigation
+                    systems are sensitive to clogging, therefore mineral
+                    particles e.g. from incompletely dissolved fertilizers,
+                    precipitation or microbial growth have to be avoided and the
+                    fertilizers, either in solid or liquid form, as straights or
+                    ready-made mixtures have to be completely water
+                    soluble.</span
+                  ><br /><br /></span
+                ><span class="nutrigation-content8326 thq-body-small"
+                  ><span
+                    >Under drip irrigated conditions, the soil volume in which
+                    the roots grow will be reduced to the soil volume that is
+                    watered. A high root density is found in these wet bulbs and
+                    it is crucial to ensure optimum growth conditions in terms
+                    of nutrient and water supply. In order to avoid salinity
+                    problems, nutrigation should use fertilizers, like calcium
+                    nitrate, potassium nitrate etc., which do not contain any
+                    other elements that are not necessary for the nutrition of
+                    the crop.</span
+                  ><br /><br /></span
+                ><span class="nutrigation-content8327 thq-body-small"
+                  ><span
+                    >With nutrigation, plant nutrients in readily and highly
+                    available form can be placed close to the roots in required
+                    rates when needed. As crops require different rates of each
+                    nutrient at specific physiological growth stages,
+                    nutrigation enables the grower to increase yield and fine
+                    tune quality of the crop and to strongly enhance
+                    fertilizer-use-efficiency. The yield increase in nutrigation
+                    systems is in line with the need to intensify
+                    land-use-efficiency to meet the food demand of the growing
+                    population by production on a shrinking acreage of available
+                    arable land. Furthermore, the higher nutrient-use-efficiency
+                    is of advantage for the environment, as nutrients used by
+                    the crop are not lost by leaching or gaseous losses
+                    (volatilization).</span
+                  ><br /><br /></span
+                ><h3 class="thq-heading-3">Benefits of Nutrigation</h3
+                ><ul class="nutrigation-ul82 thq-flex-column"
+                  ><li class="list-item"
+                    ><p class="thq-body-small"
+                      ><span
+                        >Nutrient availability to the plant is improved.</span
+                      ><br /></p></li
+                  ><li class="list-item"
+                    ><p class="thq-body-small"
+                      ><span>Nutrient uptake efficiency is increased.</span
+                      ><br /></p></li
+                  ><li class="list-item"
+                    ><p class="thq-body-small"
+                      ><span
+                        >Fertilizer application rates and water requirements are
+                        reduced.</span
+                      ><br /></p></li
+                  ><li class="list-item"
+                    ><p class="thq-body-small"
+                      ><span>Losses by leaching are minimized.</span
+                      ><br /></p></li
+                  ><li class="list-item"
+                    ><p class="thq-body-small"
+                      ><span
+                        >Salt injuries to roots and foliage are prevented.</span
+                      ><br /></p></li
+                  ><li class="list-item"
+                    ><p class="thq-body-small"
+                      >Soil compaction is reduced due to less field
+                      operations.</p
+                    ></li
+                  ><li class="list-item"
+                    ><p class="thq-body-small"
+                      ><span>Weed population is decreased.</span><br /></p></li
+                  ><li class="list-item"
+                    ><p class="thq-body-small"
+                      ><span
+                        >Contamination of soil and groundwater is
+                        minimized.</span
+                      ><span> </span></p></li></ul></div
+              ><div class="nutrigation-content784 thq-flex-column"
+                ><p class="nutrigation-heading8245"
+                  ><span>Together </span
+                  ><span
+                    >with our alliance partners Haifa Chemicals Ltd, Nouryon
+                    Functional Chemicals B.V(formerly known as Akzo-Nobel), Yara
+                    International , Minera Santa Rita and </span
+                  ><span>Tessenderlo </span><span>Chemie, </span><span>PR </span
+                  ><span>Agro </span
+                  ><span
+                    >offers the whole range of highly water-soluble fertilizers
+                    and chelated micronutrients, which suits best to fertigation
+                    systems.</span
+                  ></p
+                ></div
+              ></div
+            ><img
+              alt="image"
+              src="public/Other Pics/nutrigation-1500w.webp"
+              class="nutrigation-image632" /></div></div
+        ><div id="FoliarInfo" class="growing-practice-contentlist3"
+          ><div class="foliar-container4917 thq-section-padding"
+            ><div
+              class="foliar-max-width433 thq-flex-column thq-section-max-width"
+              ><div class="foliar-content785 thq-flex-column"
+                ><h2 class="foliar-heading754 thq-heading-2"
+                  ><span>Foliar Nutrition</span></h2
+                ><h3><span>Role of foliar nutrition in plants</span></h3
+                ><p class="foliar-heading8246 thq-body-small"
+                  ><span
+                    >The predominant route for nutrients to enter plant tissue
+                    is via uptake through the roots. However, there are many
+                    situations where nutrition through leaves, fruit or shoots
+                    can be a very effective complementary delivery system.
+                    Leaves are not ideal for water and nutrient uptake, because
+                    their architecture is to protect crops against water loss as
+                    well as fungi and pest attack. The cuticle, (the outer cell
+                    layer on leaves sealed with wax) works as a barrier to the
+                    entrance of nutrients into the plant. However, nutrients in
+                    the ionic form can penetrate either through the cuticle via
+                    small cracks or through the stomata, the pores in leaves for
+                    gas exchange.</span
+                  ><br /></p
+                ><p class="foliar-heading8247 thq-body-small"
+                  ><span
+                    >Foliar applications can be done either with aqueous
+                    solutions or suspension of nutrients. Application rates are
+                    low, 0.5 to 10 kilograms of foliar fertilizer per hectare,
+                    dissolved in 50 – 2500 liters of water. The water rate
+                    depends on canopy size and density. Foliar fertilizers are
+                    often used to supplement micronutrients (Mn, Fe, Zn, Cu, B,
+                    Mo) and occasionally the secondary (Ca, Mg, S) and Primary
+                    nutrients (N, P, K)</span
+                  ><br /></p
+                ><h3
+                  ><span>Foliar application to treat absolute deficiency</span
+                  ><br /></h3
+                ><p class="foliar-heading8248 thq-body-small"
+                  >All nutrients play an essential role for growth and
+                  development of crops. The shortage of a single nutrient
+                  becomes a bottleneck of production since vital metabolic
+                  pathways are impaired. As a consequence, shape and color of
+                  crops deviates from those fully nourished. Visual symptoms can
+                  tell an experienced grower which nutrient is lacking. Foliar
+                  application of the nutrient concerned will provide an
+                  immediate relief of the problem and a normal crop yield can be
+                  achieved.</p
+                ><p class="foliar-heading8249 thq-body-small"
+                  >Sometimes there are no visible symptoms, but foliar sprays
+                  are applied to treat latent deficiencies (hidden hunger). The
+                  need for such treatments is determined by a chemical analysis
+                  of the crop. For almost all crops critical nutrient values are
+                  available which indicate the adequate nutrient content in the
+                  tissue. If the analysis for a particular nutrient is below its
+                  critical value, foliar nutrition can be made to prevent the
+                  problem. Yield responses to foliar nutrition can be
+                  substantial.</p
+                ><h3
+                  ><span
+                    >Foliar nutrition to prevent deficiencies in fruits</span
+                  ><br /></h3
+                ><p class="foliar-heading8250 thq-body-small"
+                  ><span
+                    >Nutrient availability is not the only bottleneck for
+                    adequate nutrient supply to crops. Limited nutrient
+                    transport to different plant parts can also cause localized
+                    deficiencies. In particular the transport of boron and
+                    calcium in the plant relies on the transpiration flow, which
+                    means that tissue with low transpiration rates, eg. Fruit,
+                    can easily become deficient in calcium and boron.</span
+                  ><br /></p
+                ><h3>Efficient foliar fertilizers</h3
+                ><p class="foliar-heading8251 thq-body-small"
+                  >Efficiency of foliar applications depends on crop type, leaf
+                  coverage, weather conditions and product quality. It is
+                  estimated that foliar treated crops will absorb about 15 – 40%
+                  of nutrients applied. Efficiency of the foliar fertilizer is
+                  improved when the formulation contains additives like wetting
+                  agents to enhance the coverage of leaves or stickers that
+                  prevent nutrients being washed off by rainfall. Together with
+                  our alliance partners Haifa chemicals Ltd., Nouryon Functional
+                  Chemicals B.V(formerly known as Akzo-Nobel), Yara
+                  International , Minera Santa Rita, Kheme Chemicals and
+                  Tessenderlo Chemie; PR Agro offers growers an extensive
+                  portfolio of foliar fertilizers combined with the knowledge
+                  about optimum application rate and timing.</p
+                ></div
+              ></div
+            ><img
+              alt="image"
+              src="public/Other Pics/foliar-1500w.webp"
+              class="foliar-image633" /></div></div
+        ><footer class="footer-footer26 footerContainer footer-root-class-name1"
+          ><div class="footer-separator26"></div
+          ><div class="footer-container4932 thq-flex-column"
+            ><span class="footer-text7441"><span>Copyright ©</span></span
+            ><span class="footer-date-time26"
+              ><date-time-primitive
+                format="YYYY"
+                date="Thu May 30 2024 10:53:54 GMT+0530 (India Standard Time)"
+              ></date-time-primitive></span
+            ><span class="footer-text7442"
+              ><span
+                >&nbsp;PR Agro Nutri (Pvt.) Ltd., Hyderabad. All rights
+                reserved</span
+              ></span
+            ></div
+          ></footer
+        ></div
+      ></div
+    >
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script
+    ><script
+      defer=""
+      src="https://unpkg.com/@teleporthq/react-components/dist/animate-on-reveal.umd.js"
+    ></script></body
+></html>

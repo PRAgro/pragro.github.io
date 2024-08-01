@@ -1,0 +1,35 @@
+.growing-practice1-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.growing-practice1-max-width {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.growing-practice1-container1 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.growing-practice1-text {
+  font-style: normal;
+  text-align: justify;
+  font-weight: 400;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+
+@media(max-width: 479px) {
+  .growing-practice1-container1 {
+    padding-left: 0px;
+  }
+  .growing-practice1-root-class-name {
+    width: 100%;
+  }
+}

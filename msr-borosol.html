@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>MSR-Borosol - PR Agro</title
+    ><meta property="og:title" content="MSR-Borosol - PR Agro" /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Noto Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-JG2J5G3QFE"
+    ></script
+    ><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JG2J5G3QFE');
+    </script></head
+  >
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./msr-borosol.css" rel="stylesheet" /><script
+        type="text/javascript"
+        src="https://github.com/teleporthq/date-time-primitive/blob/main/dist/default/lib.umd.js"
+      ></script
+      ><div class="msr-borosol-container"
+        ><div class="navigation-container2180 navigation-root-class-name27"
+          ><div class="navigation-container2181"
+            ><a href="index.html" class="navigation-navlink389"
+              ><img
+                alt="image"
+                src="public/logos/pragro-1500h.webp"
+                loading="eager"
+                class="navigation-image275" /></a
+            ><div class="navigation-container2182 thq-section-max-width"
+              ><animate-on-reveal
+                animation="pulse"
+                duration="1500ms"
+                delay="1500ms"
+                direction="normal"
+                easing="linear"
+                iteration="10000"
+                ><a href="index.html"
+                  ><h1
+                    data-thq-animate-on-reveal="true"
+                    class="navigation-text3262"
+                    ><span>PR Agro Nutri (Pvt.) Ltd.</span></h1
+                  ></a
+                ></animate-on-reveal
+              ><div class="navigation-container2183"
+                ><a href="index.html" class="navigation-navlink391"
+                  ><span>Home</span></a
+                ><a href="nutrients.html" class="navigation-navlink392"
+                  ><span>Nutrients</span></a
+                ><a href="growing-practice.html" class="navigation-navlink393"
+                  ><span>Growing Methods</span></a
+                ><a href="products.html" class="navigation-navlink394"
+                  ><span>Products</span></a
+                ><a href="contact-us.html" class="navigation-navlink395"
+                  ><span>Contact Us</span></a
+                ><span class="navigation-text3263"
+                  ><span>Investor Relations</span></span
+                ></div
+              ></div
+            ></div
+          ></div
+        ><div
+          class="msr-borosol-container01 thq-flex-column thq-section-max-width"
+          ><h1>BoroSol</h1
+          ><span class="msr-borosol-text01 thq-body-small"
+            >Aquabor® MSR is multi-functional product with general applications
+            in both industrial and consumer products. It is a mild alkaline salt
+            consisting of a fine white powder that is readily soluble in water.
+            Aquabor® dissolves even in cold water, with the maximum possible
+            dispersion and solubility in order to obtain supersaturated
+            solutions with high boron concentrations.</span
+          ><span class="msr-borosol-text02 thq-body-small"
+            >As such, it has a number of different uses in agro-industrial
+            markets, in addition to its long established role in farm sprays.
+            Minera Santa Rita S.R.L. produces its Aquabor® in a modern spry
+            dryer plant, entirely built in 316L stainless steel that guarantees
+            high purity and no product contamination.</span
+          ></div
+        ><div class="msr-borosol-container02 thq-section-max-width"
+          ><h2 class="msr-borosol-text03"
+            ><span>Product analysis</span><br /></h2
+          ><div class="msr-borosol-container03"
+            ><div class="msr-borosol-container04"
+              ><span class="msr-borosol-text06 thq-body-small"
+                >Nutrient</span
+              ></div
+            ><div class="msr-borosol-container05"
+              ><span class="msr-borosol-text07 thq-body-small"
+                >Content</span
+              ></div
+            ></div
+          ><div class="msr-borosol-container06"
+            ><div class="msr-borosol-container07"
+              ><span class="msr-borosol-text08"
+                ><span>Molecular Weight</span><br /></span></div
+            ><div class="msr-borosol-container08"
+              ><span class="msr-borosol-text11">412.52</span></div
+            ></div
+          ><div class="msr-borosol-container09"
+            ><div class="msr-borosol-container10"
+              ><span class="msr-borosol-text12">B </span></div
+            ><div class="msr-borosol-container11"
+              ><span class="msr-borosol-text13"
+                ><span>Min 21%</span><br /></span></div></div
+          ><div class="msr-borosol-container12"
+            ><div class="msr-borosol-container13"
+              ><span class="msr-borosol-text16 thq-body-small"
+                >Na2B8O13. 4H2O</span
+              ></div
+            ><div class="msr-borosol-container14"
+              ><span class="msr-borosol-text17"
+                ><span>Min 99.5%</span><br /></span></div></div
+          ><div class="msr-borosol-container15"
+            ><div class="msr-borosol-container16"
+              ><span class="msr-borosol-text20">Na2O </span></div
+            ><div class="msr-borosol-container17"
+              ><span class="msr-borosol-text21"
+                ><span>Min 15%</span><br /></span></div></div
+          ><div class="msr-borosol-container18"
+            ><div class="msr-borosol-container19"
+              ><span class="msr-borosol-text24">H2O </span></div
+            ><div class="msr-borosol-container20"
+              ><span class="msr-borosol-text25"
+                ><span>Max 17.5%</span><br /></span></div></div
+          ><div class="msr-borosol-container21"
+            ><div class="msr-borosol-container22"
+              ><span class="msr-borosol-text28">B2034</span></div
+            ><div class="msr-borosol-container23"
+              ><span class="msr-borosol-text29"
+                ><span>Min 67.5%</span><br /></span></div></div></div
+        ><div
+          class="msr-borosol-container24 thq-flex-column thq-section-max-width"
+          ><h2 class="msr-borosol-text32"> Solubility in Water</h2
+          ><span class="msr-borosol-text33 thq-body-small"
+            >The small particle size of Aquabor® has inherently high solubility,
+            even at low temperatures. It gives rapid solubility properties even
+            under the most demanding conditions.</span
+          ></div
+        ><div
+          class="contact-dealers-container2022 thq-section-padding contact-dealers-root-class-name23"
+          ><div class="thq-section-max-width"
+            ><div class="contact-dealers-accent2-bg110"
+              ><div class="contact-dealers-accent1-bg110"
+                ><div class="contact-dealers-container2023"
+                  ><div class="contact-dealers-content329"
+                    ><span class="thq-heading-2"
+                      ><span
+                        >Enhance Your Crop Quality and Yield Today</span
+                      ></span
+                    ><p class="thq-body-large"
+                      ><span>Contact Us to find the nearest dealer</span></p
+                    ></div
+                  ><a href="contact-us.html" class="contact-dealers-navlink375"
+                    ><div class="contact-dealers-actions67"
+                      ><button
+                        type="button"
+                        class="thq-button-filled contact-dealers-button102"
+                        ><span>Contact Us</span></button
+                      ></div
+                    ></a
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></div
+        ><footer
+          class="footer-footer10 footerContainer footer-root-class-name26"
+          ><div class="footer-separator10"></div
+          ><div class="footer-container2020 thq-flex-column"
+            ><span class="footer-text3089"><span>Copyright ©</span></span
+            ><span class="footer-date-time10"
+              ><date-time-primitive
+                format="YYYY"
+                date="Thu May 30 2024 10:53:54 GMT+0530 (India Standard Time)"
+              ></date-time-primitive></span
+            ><span class="footer-text3090"
+              ><span
+                >&nbsp;PR Agro Nutri (Pvt.) Ltd., Hyderabad. All rights
+                reserved</span
+              ></span
+            ></div
+          ></footer
+        ></div
+      ></div
+    >
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script
+    ><script
+      defer=""
+      src="https://unpkg.com/@teleporthq/react-components/dist/animate-on-reveal.umd.js"
+    ></script></body
+></html>

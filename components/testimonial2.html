@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>PR Agro</title
+    ><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Noto Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-JG2J5G3QFE"
+    ></script
+    ><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JG2J5G3QFE');
+    </script></head
+  >
+  <body
+    ><link rel="stylesheet" href="../style.css" /><div
+      ><link href="./testimonial2.css" rel="stylesheet" /><div
+        class="testimonial2-testimonial13 thq-section-padding"
+        ><div class="testimonial2-max-width thq-section-max-width"
+          ><div class="testimonial2-container"
+            ><h2 class="thq-heading-2"><span>Testimonials</span></h2></div
+          ><div class="thq-grid-2"
+            ><div class="thq-animated-card-bg-2"
+              ><div class="thq-animated-card-bg-1"
+                ><div data-animated="true" class="thq-card testimonial2-card"
+                  ><div class="testimonial2-container02"
+                    ><div class="testimonial2-container03"
+                      ><strong class="thq-body-large"
+                        ><span>Maheshwar Reddy</span></strong
+                      ><span class="thq-body-small"
+                        ><span>Farm Owner</span></span
+                      ></div
+                    ></div
+                  ><span class="testimonial2-text03 thq-body-small"
+                    ><span
+                      >PR Agro Nutri has revolutionized the way we approach
+                      farming. Their water soluble fertilizers have
+                      significantly improved our Pomegranate crop yield and
+                      quality. Highly recommended!</span
+                    ></span
+                  ></div
+                ></div
+              ></div
+            ><div class="thq-animated-card-bg-2"
+              ><div class="thq-animated-card-bg-1"
+                ><div data-animated="true" class="thq-card testimonial2-card1"
+                  ><div class="testimonial2-container04"
+                    ><div class="testimonial2-container05"
+                      ><strong class="thq-body-large"
+                        ><span>Lemon Chili Farms Pvt Ltd</span></strong
+                      ><span class="thq-body-small"
+                        ><span>Agripreneur</span></span
+                      ></div
+                    ></div
+                  ><span class="testimonial2-text06 thq-body-small"
+                    ><span
+                      >PR Agro is a highly professional and dedicated company
+                      that consistently provides top-quality products to
+                      farmers. They prioritize sourcing and supplying
+                      high-quality fertilizers and nutrients, setting a standard
+                      for the industry in India. PR Agro is synonymous with
+                      quality!</span
+                    ></span
+                  ></div
+                ></div
+              ></div
+            ><div class="thq-animated-card-bg-2"
+              ><div class="thq-animated-card-bg-1"
+                ><div data-animated="true" class="thq-card testimonial2-card2"
+                  ><div class="testimonial2-container06"
+                    ><div class="testimonial2-container07"
+                      ><strong class="thq-body-large"
+                        ><span>Sameer Lakkad</span></strong
+                      ><span class="thq-body-small"
+                        ><span>Farm Owner</span></span
+                      ></div
+                    ></div
+                  ><span class="testimonial2-text09 thq-body-small"
+                    ><span
+                      >I have been using PR Argo’s product Like Haifa, Rexolin
+                      etc… for a few years now, and I'm very satisfied with its
+                      benefits. It's incredibly versatile and has become
+                      essential in my Rose growing journey. I have already
+                      recommended all these products to friends and other Rose
+                      growers, and I'll continue to do so. It's a big
+                      game-changer, and I can't imagine living without it now.
+                      The value for money is outstanding, and I feel like I've
+                      gotten so much more than I paid for. In short, these
+                      products have exceeded my expectations in every way. It's
+                      a must-have for anyone looking to improve
+                      their&nbsp;garden&nbsp;journey.</span
+                    ></span
+                  ></div
+                ></div
+              ></div
+            ><div class="thq-animated-card-bg-2"
+              ><div class="thq-animated-card-bg-1"
+                ><div data-animated="true" class="thq-card testimonial2-card3"
+                  ><div class="testimonial2-container08"
+                    ><div class="testimonial2-container09"
+                      ><strong class="thq-body-large"
+                        ><span>Raghupati</span></strong
+                      ><span class="thq-body-small"
+                        ><span>Farmer</span></span
+                      ></div
+                    ></div
+                  ><span class="testimonial2-text12 thq-body-small"
+                    ><span
+                      >PR Agro products have provided me high yields and helped
+                      in better setting of tomato crop.</span
+                    ></span
+                  ><iframe
+                    src="https://www.youtube.com/embed/Sdxi7YIUr3Y?rel=0"
+                    class="testimonial2-iframe"
+                  ></iframe></div></div></div
+            ><div class="thq-animated-card-bg-2"
+              ><div class="thq-animated-card-bg-1"
+                ><div data-animated="true" class="testimonial2-card4 thq-card"
+                  ><div class="testimonial2-container10"
+                    ><div class="testimonial2-container11"
+                      ><strong class="thq-body-large"
+                        ><span>Ananth</span></strong
+                      ><span class="thq-body-small"
+                        ><span>Farm Owner</span></span
+                      ></div
+                    ></div
+                  ><span class="testimonial2-text15 thq-body-small"
+                    ><span
+                      >I have used PR Agro products through drip and foliar, the
+                      products are 100% Water soluble leaving no wastage and
+                      improved my banana bunch weight to 40kg, almost an
+                      increase of 25% compared to other available products in
+                      the market.</span
+                    ></span
+                  ><iframe
+                    src="https://www.youtube.com/embed/5lFoGZaO34c?rel=0"
+                    class="testimonial2-iframe1"
+                  ></iframe></div></div></div
+            ><div class="thq-animated-card-bg-2"
+              ><div class="thq-animated-card-bg-1"
+                ><div data-animated="true" class="testimonial2-card5 thq-card"
+                  ><div class="testimonial2-container12"
+                    ><div class="testimonial2-container13"
+                      ><strong class="thq-body-large"
+                        ><span>Balakumar</span></strong
+                      ><span class="thq-body-small"
+                        ><span>Farm Owner</span></span
+                      ></div
+                    ></div
+                  ><span class="testimonial2-text18 thq-body-small"
+                    ><span
+                      >I highly recommend PR Agro Nutri (Pvt.) Ltd. for their
+                      top-notch micro nutrient products that have significantly
+                      improved the health and productivity of my crops. Their
+                      high-quality agri-inputs truly make a difference to my
+                      crops, Jasmine yield increase by 20%. Best product for all
+                      nursery flowers.</span
+                    ></span
+                  ><iframe
+                    src="https://www.youtube.com/embed/v-AncqBWwjc?rel=0"
+                    class="testimonial2-iframe2"
+                  ></iframe></div></div></div
+            ><div class="thq-animated-card-bg-2"
+              ><div class="thq-animated-card-bg-1"
+                ><div data-animated="true" class="testimonial2-card6 thq-card"
+                  ><div class="testimonial2-container14"
+                    ><div class="testimonial2-container15"
+                      ><strong class="thq-body-large"
+                        ><span>Sri Sarang Gangaram</span></strong
+                      ><span class="thq-body-small"
+                        ><span>Farm Owner</span></span
+                      ></div
+                    ></div
+                  ><span
+                    ><span
+                      >I am a seasoned grower, have been growing flowers and
+                      vegetables. I have been using PR Agro fertilizers for the
+                      past 20 years blindly. The results are visible in the
+                      fields. It gives the best PH and EC without affecting soil
+                      microorganisms. Best balanced fetilizers ever.</span
+                    ></span
+                  ><iframe
+                    src="https://www.youtube.com/embed/FlHXuA1NVQE?rel=0"
+                    class="testimonial2-iframe3"
+                  ></iframe></div></div></div
+            ><div class="thq-animated-card-bg-2"
+              ><div class="thq-animated-card-bg-1"
+                ><div data-animated="true" class="testimonial2-card7 thq-card"
+                  ><div class="testimonial2-container16"
+                    ><div class="testimonial2-container17"
+                      ><strong class="thq-body-large"
+                        ><span>Bharathi Dilip</span></strong
+                      ><span class="thq-body-small"
+                        ><span>Farm Owner</span></span
+                      ></div
+                    ></div
+                  ><span
+                    ><span
+                      >PR Agro Nutri's fertilizers have significantly improved
+                      the yield of my crops. I highly recommend their products
+                      to all farmers.</span
+                    ></span
+                  ><iframe
+                    src="https://www.youtube.com/embed/cRayvlUsbRE?rel=0"
+                    class="testimonial2-iframe4"
+                  ></iframe></div></div></div></div
+          ><div class="social-media-container2269 social-media-root-class-name"
+            ><span class="social-media-text3456"
+              ><span>Explore our Social Media Platforms</span></span
+            ><div class="social-media-container2270"
+              ><a
+                href="https://www.youtube.com/@PRAgroNutriPrivateLimited"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="social-media-link336"
+                ><div class="social-media-container2271"
+                  ><svg viewBox="0 0 1024 1024" class="social-media-icon230">
+                    <path
+                      d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"
+                    ></path></svg></div></a
+              ><a
+                href="https://www.facebook.com/PRAgroNutriPvtLtd/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="social-media-link337"
+                ><div class="social-media-container2272"
+                  ><svg
+                    viewBox="0 0 877.7142857142857 1024"
+                    class="social-media-icon232"
+                  >
+                    <path
+                      d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"
+                    ></path></svg></div></a></div></div></div></div
+    ></div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script
+    ><script
+      defer=""
+      src="https://unpkg.com/@teleporthq/react-components/dist/animate-on-reveal.umd.js"
+    ></script></body
+></html>

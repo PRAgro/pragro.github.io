@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>PR Agro</title
+    ><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Noto Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-JG2J5G3QFE"
+    ></script
+    ><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JG2J5G3QFE');
+    </script></head
+  >
+  <body
+    ><link rel="stylesheet" href="../style.css" /><div
+      ><link href="./product-desc.css" rel="stylesheet" /><div
+        class="product-desc-layout349 thq-section-padding"
+        ><div class="product-desc-max-width thq-section-max-width"
+          ><div class="product-desc-container thq-flex-column"
+            ><h2 class="product-desc-text thq-heading-2"
+              ><span
+                >Explore Our Diverse Range of Fertilizers from Around the
+                World</span
+              ></h2
+            ><span class="product-desc-text01 thq-body-small"
+              ><span
+                >We source our products from leading international suppliers
+                based in countries like Israel, Norway, The Netherlands, Belgium
+                and Argentina</span
+              ></span
+            ></div
+          ><div class="product-desc-container1 thq-grid-auto-300"
+            ><a href="haifa-npk.html"
+              ><div class="product-desc-card thq-flex-column thq-card"
+                ><img
+                  alt="Specialty Fertilizers Image"
+                  src="public/productpics/GIF pics/npk-1400w.gif"
+                  loading="lazy"
+                  class="product-desc-image thq-img-ratio-1-1 thq-img-round"
+                /><h2 class="thq-heading-2"><span>NPK Range</span></h2
+                ><span class="product-desc-text03 thq-body-small"
+                  ><span
+                    >Grades: 19-19-19, 20-20-20, 17-10-27+, 13-40-13+ and
+                    15-15-30+. For Complete Plant Nutrition</span
+                  ></span
+                ></div
+              ></a
+            ><a href="haifa-kno3.html"
+              ><div class="product-desc-card01 thq-flex-column thq-card"
+                ><img
+                  alt="Water Soluble Fertilizers Image"
+                  src="public/productpics/GIF pics/kno3-1400w.gif"
+                  loading="lazy"
+                  class="product-desc-image01 thq-img-ratio-1-1 thq-img-round"
+                /><h2 class="thq-heading-2"><span>AgriPLUS KNo3</span></h2
+                ><span class="product-desc-text05 thq-body-small"
+                  ><span
+                    >13-00-45 Potassium Nitrate Recommended for Fruit
+                    Development</span
+                  ></span
+                ></div
+              ></a
+            ><a href="haifa-mkp.html"
+              ><div class="product-desc-card02 thq-flex-column thq-card"
+                ><img
+                  alt="Plant Nutrients Image"
+                  src="public/productpics/GIF pics/mkp-1400w.gif"
+                  loading="lazy"
+                  class="product-desc-image02 thq-img-ratio-1-1 thq-img-round"
+                /><h1 class="thq-heading-2"><span>AgriPLUS MKP</span></h1
+                ><span class="product-desc-text07 thq-body-small"
+                  ><span
+                    >00-52-34 Mono Potassium Phosphate. For Flower Bud
+                    Initiation and Fruit Setting</span
+                  ></span
+                ></div
+              ></a
+            ><a href="haifa-map.html"
+              ><div class="product-desc-card03 thq-flex-column thq-card"
+                ><img
+                  alt="Crop Enhancement Image"
+                  src="public/productpics/GIF pics/map-1400w.gif"
+                  loading="lazy"
+                  class="product-desc-image03 thq-img-ratio-1-1 thq-img-round"
+                /><h1 class="thq-heading-2"><span>AgriPLUS MAP</span></h1
+                ><span class="product-desc-text09 thq-body-small"
+                  ><span
+                    >12-61-00 Mono Ammonium Phosphate. For Root
+                    Development</span
+                  ></span
+                ></div
+              ></a
+            ><a href="haifa-cal.html"
+              ><div class="product-desc-card04 thq-flex-column thq-card"
+                ><img
+                  alt="Customer Satisfaction Image"
+                  src="public/productpics/GIF pics/haifa-cal-1400w.gif"
+                  loading="lazy"
+                  class="product-desc-image04 thq-img-ratio-1-1 thq-img-round"
+                /><h1 class="thq-heading-2"><span>Haifa Cal</span></h1
+                ><span class="product-desc-text11 thq-body-small"
+                  ><span
+                    >15.5-0-0-26.5 CaO. For End to End Strength and Growth</span
+                  ></span
+                ></div
+              ></a
+            ><a href="haifa-mag.html"
+              ><div class="product-desc-card05 thq-flex-column thq-card"
+                ><img
+                  alt="High-Quality Products Image"
+                  src="public/productpics/GIF pics/haifa%20mag-1400w.gif"
+                  loading="lazy"
+                  class="product-desc-image05 thq-img-ratio-1-1 thq-img-round"
+                /><h1 class="thq-heading-2"><span>Magnisal</span></h1
+                ><span class="product-desc-text13 thq-body-small"
+                  ><span
+                    >11-00-00-16 MgO. For Chlorophyll Development and Vegetative
+                    Growth</span
+                  ></span
+                ></div
+              ></a
+            ><a href="tess-sop.html"
+              ><div class="product-desc-card06 thq-flex-column thq-card"
+                ><img
+                  alt="Wide Range of Products Image"
+                  src="public/productpics/GIF pics/sop-1400w.gif"
+                  loading="lazy"
+                  class="product-desc-image06 thq-img-ratio-1-1 thq-img-round"
+                /><h1 class="thq-heading-2"><span> Sol- K</span></h1
+                ><span class="product-desc-text15 thq-body-small"
+                  ><span
+                    >00-00-50+ 18S Soluble SOP. For Fruit Development and
+                    Maturity</span
+                  ></span
+                ></div
+              ></a
+            ><a href="yara-cal.html"
+              ><div class="product-desc-card07 thq-flex-column thq-card"
+                ><img
+                  alt="Wide Range of Products Image"
+                  src="public/productpics/GIF pics/cansol-1400w.gif"
+                  loading="lazy"
+                  class="product-desc-image07 thq-img-ratio-1-1 thq-img-round"
+                /><h1 class="thq-heading-2"><span>CaNsol</span></h1
+                ><span class="product-desc-text17 thq-body-small"
+                  ><span
+                    >15.5-0-0-18.8Ca. For End to End Strength and Growth.</span
+                  ></span
+                ></div
+              ></a
+            ><a href="mn.html"
+              ><div class="product-desc-card08 thq-flex-column thq-card"
+                ><img
+                  alt="Focus on Quality Image"
+                  src="public/productpics/GIF pics/rexodiss-1400w.gif"
+                  loading="lazy"
+                  class="product-desc-image08 thq-img-ratio-1-1 thq-img-round"
+                /><h1 class="thq-heading-2"><span>Micro Nutrients</span></h1
+                ><span class="product-desc-text19 thq-body-small"
+                  ><span
+                    >For all Micro Nutrient Deficiencies'. Entire Range from
+                    Nouryon: Dissolvine/ Rexolin</span
+                  ></span
+                ></div
+              ></a
+            ><a href="msr-borosol.html"
+              ><div class="product-desc-card09 thq-flex-column thq-card"
+                ><img
+                  alt="Focus on Quality Image"
+                  src="public/productpics/boron-1400w.webp"
+                  loading="lazy"
+                  class="product-desc-image09 thq-img-ratio-1-1 thq-img-round"
+                /><h1 class="thq-heading-2"><span>BoroSol</span></h1
+                ><span class="product-desc-text21 thq-body-small"
+                  ><span
+                    >Boron-20% . For Flower and Fruit Drop Control</span
+                  ></span
+                ></div
+              ></a
+            ><a href="haifa-phos-acid.html"
+              ><div class="product-desc-card10 thq-flex-column thq-card"
+                ><img
+                  alt="Focus on Quality Image"
+                  src="public/productpics/phos%20acid-1400w.webp"
+                  loading="lazy"
+                  class="product-desc-image10 thq-img-ratio-1-1 thq-img-round"
+                /><h1 class="thq-heading-2"><span>Haifa P™</span></h1
+                ><span
+                  >Phosphoric acid 85% (0-61-0). For Root Development.</span
+                ></div
+              ></a
+            ></div
+          ></div
+        ></div
+      ></div
+    >
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script
+    ><script
+      defer=""
+      src="https://unpkg.com/@teleporthq/react-components/dist/animate-on-reveal.umd.js"
+    ></script></body
+></html>

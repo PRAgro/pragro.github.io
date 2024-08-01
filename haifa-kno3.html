@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>Haifa-Kno3 - PR Agro</title
+    ><meta property="og:title" content="Haifa-Kno3 - PR Agro" /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Noto Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-JG2J5G3QFE"
+    ></script
+    ><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JG2J5G3QFE');
+    </script></head
+  >
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./haifa-kno3.css" rel="stylesheet" /><script
+        type="text/javascript"
+        src="https://github.com/teleporthq/date-time-primitive/blob/main/dist/default/lib.umd.js"
+      ></script
+      ><div class="haifa-kno3-container"
+        ><div class="navigation-container2362 navigation-root-class-name18"
+          ><div class="navigation-container2363"
+            ><a href="index.html" class="navigation-navlink422"
+              ><img
+                alt="image"
+                src="public/logos/pragro-1500h.webp"
+                loading="eager"
+                class="navigation-image298" /></a
+            ><div class="navigation-container2364 thq-section-max-width"
+              ><animate-on-reveal
+                animation="pulse"
+                duration="1500ms"
+                delay="1500ms"
+                direction="normal"
+                easing="linear"
+                iteration="10000"
+                ><a href="index.html"
+                  ><h1
+                    data-thq-animate-on-reveal="true"
+                    class="navigation-text3534"
+                    ><span>PR Agro Nutri (Pvt.) Ltd.</span></h1
+                  ></a
+                ></animate-on-reveal
+              ><div class="navigation-container2365"
+                ><a href="index.html" class="navigation-navlink424"
+                  ><span>Home</span></a
+                ><a href="nutrients.html" class="navigation-navlink425"
+                  ><span>Nutrients</span></a
+                ><a href="growing-practice.html" class="navigation-navlink426"
+                  ><span>Growing Methods</span></a
+                ><a href="products.html" class="navigation-navlink427"
+                  ><span>Products</span></a
+                ><a href="contact-us.html" class="navigation-navlink428"
+                  ><span>Contact Us</span></a
+                ><span class="navigation-text3535"
+                  ><span>Investor Relations</span></span
+                ></div
+              ></div
+            ></div
+          ></div
+        ><div
+          class="haifa-kno3-container01 thq-flex-column thq-section-max-width"
+          ><h1 class="haifa-kno3-text"
+            ><span>AgriPLUS™ Potassium Nitrate 13-00-45</span><br /><br /></h1
+          ><span class="haifa-kno3-text004 thq-body-small"
+            >AgriPLUS™13-00-45 is a fully water-soluble Potassium Nitrate
+            13-00-45 fertilizer, a highly efficient source of potash and
+            nitrogen for plants. AgriPLUS™13-00-45 is recommended for use at the
+            fruit development stage of growing season, because potash
+            availability is crucial for the development of fruits at this stage.
+            AgriPLUS™13-00-45 can serve as a high quality source of potash, also
+            during other stages of the growth cycle where plants requirement of
+            potash is high.</span
+          ><span class="haifa-kno3-text005 thq-body-small"
+            >Its high purity and water-solubility make AgriPLUS™13-00-45 an
+            ideal fertilizer for nutrigation and for foliar nutrition.
+            AgriPLUS™13-00-45 is suitable for preparation of fertilizer blends
+            and production of liquid fertilizers also.</span
+          ><h2 class="haifa-kno3-text006"
+            ><span>Advantages of AgriPLUS™13-00-45</span><br /></h2
+          ><ul class="haifa-kno3-ul list"
+            ><li class="list-item"
+              ><span
+                ><span>Efficiently absorbed by plants.</span
+                ><br /><br /></span></li
+            ><li class="list-item"
+              ><span
+                ><span>Consists of 100% plant nutrients.</span
+                ><br /><br /></span></li
+            ><li class="list-item"
+              ><span
+                ><span
+                  >Highly-concentrated source of potassium for plants (45% K2O /
+                  38% K).</span
+                ><br /><br /></span></li
+            ><li class="list-item"
+              ><span
+                ><span
+                  >Suitable for nutrigation, foliar nutrition and production of
+                  fertilizer blends.</span
+                ><br /><br /></span></li
+            ><li class="list-item"
+              ><span
+                ><span
+                  >Free of chloride, sodium and other detrimental
+                  elements.</span
+                ><br /><br /></span></li
+            ><li class="list-item"
+              ><span
+                ><span
+                  >Wide-range compatibility with all types of fertilizers and
+                  agrochemicals.</span
+                ><br /><br /></span></li
+            ><li class="list-item"
+              ><span
+                ><span
+                  >Non-volatile; easy to apply with no nitrogen losses to the
+                  atmosphere.</span
+                ><br /><br /></span></li></ul></div
+        ><div class="haifa-kno3-container02 thq-section-max-width"
+          ><h2 class="haifa-kno3-text037"
+            ><span>Product analysis</span><br /></h2
+          ><div class="haifa-kno3-container03"
+            ><div class="haifa-kno3-container04"
+              ><span class="haifa-kno3-text040 thq-body-small"
+                >Nutrient</span
+              ></div
+            ><div class="haifa-kno3-container05"
+              ><span class="haifa-kno3-text041 thq-body-small"
+                >Content</span
+              ></div
+            ></div
+          ><div class="haifa-kno3-container06"
+            ><div class="haifa-kno3-container07"
+              ><span class="haifa-kno3-text042">N-TOTAL </span></div
+            ><div class="haifa-kno3-container08"
+              ><span class="haifa-kno3-text043"
+                ><span>13.2%</span><br /></span></div></div
+          ><div class="haifa-kno3-container09"
+            ><div class="haifa-kno3-container10"
+              ><span class="haifa-kno3-text046">N-NO3 </span></div
+            ><div class="haifa-kno3-container11"
+              ><span class="haifa-kno3-text047"
+                ><span>13.2%</span><br /></span></div></div
+          ><div class="haifa-kno3-container12"
+            ><div class="haifa-kno3-container13"
+              ><span class="haifa-kno3-text050">K2O </span></div
+            ><div class="haifa-kno3-container14"
+              ><span class="haifa-kno3-text051"
+                ><span>45.8%</span><br /></span></div></div
+          ><div class="haifa-kno3-container15"
+            ><div class="haifa-kno3-container16"
+              ><span class="haifa-kno3-text054">K</span></div
+            ><div class="haifa-kno3-container17"
+              ><span class="haifa-kno3-text055"
+                ><span>38.1%</span><br /></span></div></div
+          ><div class="haifa-kno3-container18"
+            ><div class="haifa-kno3-container19"
+              ><span class="haifa-kno3-text058">Bulk density </span></div
+            ><div class="haifa-kno3-container20"
+              ><span class="haifa-kno3-text059"
+                ><span>1.0 g/cm3</span><br /></span></div></div></div
+        ><div
+          class="haifa-kno3-container21 thq-flex-column thq-section-max-width"
+          ><span class="haifa-kno3-text062 thq-body-small"
+            >Double benefit: AgriPLUS™13-00-45 is not only an efficient source
+            of potassium, but also facilitates plant uptake of the Ca &amp; Mg
+            present in the soil. This is due to the synergistic effect of
+            negatively charged (anion) nitrate nitrogen (NO3-) in
+            AgriPLUS™13-00-45, which helps in uptake of positively charged ions
+            (cations) like K+, Ca++ &amp; Mg+.</span
+          ><h2 class="haifa-kno3-text063">Solubility</h2
+          ><span class="haifa-kno3-text064 thq-body-small"
+            >The solubility of AgriPLUS™13-00-45 is considerably enhanced by
+            increase in water temperature
+          </span></div
+        ><div class="haifa-kno3-container22 thq-section-max-width"
+          ><div class="haifa-kno3-container23"
+            ><div class="haifa-kno3-container24"
+              ><span class="haifa-kno3-text065"
+                >Water Temperature (C)
+              </span></div
+            ><div class="haifa-kno3-container25"
+              ><span class="haifa-kno3-text066"><span>0</span><br /></span></div
+            ><div class="haifa-kno3-container26"
+              ><span class="haifa-kno3-text069"
+                ><span>10</span><br /></span></div
+            ><div class="haifa-kno3-container27"
+              ><span class="haifa-kno3-text072"
+                ><span>20</span><br /></span></div
+            ><div class="haifa-kno3-container28"
+              ><span class="haifa-kno3-text075"
+                ><span>30</span><br /></span></div
+            ><div class="haifa-kno3-container29"
+              ><span class="haifa-kno3-text078"
+                ><span>40</span><br /></span></div></div
+          ><div class="haifa-kno3-container30"
+            ><div class="haifa-kno3-container31"
+              ><span class="haifa-kno3-text081">g/1000 g water </span></div
+            ><div class="haifa-kno3-container32"
+              ><span class="haifa-kno3-text082">13.9 </span></div
+            ><div class="haifa-kno3-container33"
+              ><span class="haifa-kno3-text083"
+                ><span>21.2 </span><br /></span></div
+            ><div class="haifa-kno3-container34"
+              ><span class="haifa-kno3-text086"
+                ><span>31.6 </span><br /></span></div
+            ><div class="haifa-kno3-container35"
+              ><span class="haifa-kno3-text089"
+                ><span>45.3 </span><br /></span></div
+            ><div class="haifa-kno3-container36"
+              ><span class="haifa-kno3-text092"
+                ><span>61.3</span><br /></span></div></div></div
+        ><div
+          class="haifa-kno3-container37 thq-flex-column thq-section-max-width"
+          ><h2 class="haifa-kno3-text095"><span>EC &amp; PH</span><br /></h2
+          ><span class="haifa-kno3-text098 thq-body-small"
+            >Electrical Conductivity (EC) increases substantially when high
+            concentrations of 13-00-45 is used</span
+          ></div
+        ><div class="haifa-kno3-container38 thq-section-max-width"
+          ><div class="haifa-kno3-container39"
+            ><div class="haifa-kno3-container40"
+              ><span class="haifa-kno3-text099">Concentration % </span></div
+            ><div class="haifa-kno3-container41"
+              ><span class="haifa-kno3-text100">0.1</span></div
+            ><div class="haifa-kno3-container42"
+              ><span class="haifa-kno3-text101"
+                ><span>0.2</span><br /></span></div
+            ><div class="haifa-kno3-container43"
+              ><span class="haifa-kno3-text104"
+                ><span>0.3</span><br /></span></div
+            ><div class="haifa-kno3-container44"
+              ><span class="haifa-kno3-text107"
+                ><span>1.0</span><br /></span></div></div
+          ><div class="haifa-kno3-container45"
+            ><div class="haifa-kno3-container46"
+              ><span class="haifa-kno3-text110">pH</span></div
+            ><div class="haifa-kno3-container47"
+              ><span class="haifa-kno3-text111">8.7</span></div
+            ><div class="haifa-kno3-container48"
+              ><span class="haifa-kno3-text112"
+                ><span>9.3</span><br /></span></div
+            ><div class="haifa-kno3-container49"
+              ><span class="haifa-kno3-text115"
+                ><span>9.6</span><br /></span></div
+            ><div class="haifa-kno3-container50"
+              ><span class="haifa-kno3-text118"
+                ><span>9.9</span><br /></span></div></div
+          ><div class="haifa-kno3-container51"
+            ><div class="haifa-kno3-container52"
+              ><span class="haifa-kno3-text121">EC (mS/cm) </span></div
+            ><div class="haifa-kno3-container53"
+              ><span class="haifa-kno3-text122">1.3</span></div
+            ><div class="haifa-kno3-container54"
+              ><span class="haifa-kno3-text123"
+                ><span>2.6</span><br /></span></div
+            ><div class="haifa-kno3-container55"
+              ><span class="haifa-kno3-text126"
+                ><span>3.8</span><br /></span></div
+            ><div class="haifa-kno3-container56"
+              ><span class="haifa-kno3-text129"
+                ><span>11.4</span><br /></span></div></div></div
+        ><div
+          class="contact-dealers-container2204 thq-section-padding contact-dealers-root-class-name14"
+          ><div class="thq-section-max-width"
+            ><div class="contact-dealers-accent2-bg120"
+              ><div class="contact-dealers-accent1-bg120"
+                ><div class="contact-dealers-container2205"
+                  ><div class="contact-dealers-content358"
+                    ><span class="thq-heading-2"
+                      ><span
+                        >Enhance Your Crop Quality and Yield Today</span
+                      ></span
+                    ><p class="thq-body-large"
+                      ><span>Contact Us to find the nearest dealer</span></p
+                    ></div
+                  ><a href="contact-us.html" class="contact-dealers-navlink408"
+                    ><div class="contact-dealers-actions73"
+                      ><button
+                        type="button"
+                        class="thq-button-filled contact-dealers-button111"
+                        ><span>Contact Us</span></button
+                      ></div
+                    ></a
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></div
+        ><footer
+          class="footer-footer11 footerContainer footer-root-class-name17"
+          ><div class="footer-separator11"></div
+          ><div class="footer-container2202 thq-flex-column"
+            ><span class="footer-text3361"><span>Copyright ©</span></span
+            ><span class="footer-date-time11"
+              ><date-time-primitive
+                format="YYYY"
+                date="Thu May 30 2024 10:53:54 GMT+0530 (India Standard Time)"
+              ></date-time-primitive></span
+            ><span class="footer-text3362"
+              ><span
+                >&nbsp;PR Agro Nutri (Pvt.) Ltd., Hyderabad. All rights
+                reserved</span
+              ></span
+            ></div
+          ></footer
+        ></div
+      ></div
+    >
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script
+    ><script
+      defer=""
+      src="https://unpkg.com/@teleporthq/react-components/dist/animate-on-reveal.umd.js"
+    ></script></body
+></html>
